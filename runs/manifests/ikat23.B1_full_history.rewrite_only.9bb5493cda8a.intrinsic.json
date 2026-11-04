@@ -1,0 +1,28 @@
+{
+  "ablation": {},
+  "axis": "ptkb_reconstruction",
+  "cache_stats": {
+    "entries": 4367,
+    "hits": 65,
+    "misses": 793
+  },
+  "collection": "ikat23",
+  "condition": "B1_full_history",
+  "config": "{\"ablation\":{},\"backend\":\"openai\",\"collection\":\"ikat23\",\"condition\":\"B1_full_history\",\"context\":\"history_plus_memory\",\"injection\":\"rewrite_only\",\"memory_k\":5,\"model\":\"gpt-4o-mini-2024-07-18\",\"rewrite_prompt\":\"rewrite_v1\"}",
+  "csv_path": "runs\\intrinsic\\ikat23.B1_full_history.rewrite_only.9bb5493cda8a.per_dialogue.csv",
+  "judge_source": "judge_v1@gpt-4o-mini-2024-07-18",
+  "manual_check_path": "manual_check\\ikat23.B1_full_history.rewrite_only.9bb5493cda8a.csv",
+  "mean_f1": 0.07765454927767601,
+  "mean_memory_ndcg_3": 0.03754718135456649,
+  "mean_precision": 0.13632461982461982,
+  "mean_recall": 0.07391384432560902,
+  "memory_k": 5,
+  "n_f1": 25,
+  "n_judge_decisions": 594,
+  "n_memory_ndcg_3": 25,
+  "n_precision": 25,
+  "n_recall": 25,
+  "n_units": 25,
+  "run_id": "ikat23.B1_full_history.rewrite_only.9bb5493cda8a",
+  "stage": "run_intrinsic"
+}

@@ -1,0 +1,34 @@
+{
+  "figures": {
+    "ablations": [
+      "runs\\figures\\fig_ablations_ndcg_cut_3.pdf",
+      "runs\\figures\\fig_ablations_ndcg_cut_3.png"
+    ],
+    "cost": [
+      "runs\\figures\\fig_cost_ndcg_cut_3.pdf",
+      "runs\\figures\\fig_cost_ndcg_cut_3.png"
+    ],
+    "headroom": [
+      "runs\\figures\\fig_headroom_ndcg_cut_3.pdf",
+      "runs\\figures\\fig_headroom_ndcg_cut_3.png"
+    ],
+    "pooling": [
+      "runs\\figures\\fig_pooling_ndcg_cut_3_judged_10.pdf",
+      "runs\\figures\\fig_pooling_ndcg_cut_3_judged_10.png"
+    ],
+    "transfer": [
+      "runs\\figures\\fig_transfer_ndcg_cut_3.pdf",
+      "runs\\figures\\fig_transfer_ndcg_cut_3.png"
+    ]
+  },
+  "metric": "ndcg_cut_3",
+  "n_runs": 23,
+  "skip_reasons": {
+    "cost": "no run row carries usage.total_tokens (scored before token accounting, or an echo-backend run)",
+    "transfer": "needs runs/intrinsic_summary.json rows whose condition also has a cast19 extrinsic row"
+  },
+  "skipped": [],
+  "source": "runs\\stats\\collect_stats.json",
+  "source_intrinsic_summary": "runs\\intrinsic_summary.json",
+  "source_stats_summary": "runs\\stats_summary.json"
+}

@@ -1,0 +1,7 @@
+{
+  "config": "{\"ablation\":{},\"backend\":\"openai\",\"collection\":\"cast20\",\"condition\":\"B0_none\",\"context\":\"memory_only\",\"injection\":\"rewrite_only\",\"memory_k\":5,\"model\":\"gpt-4o-mini-2024-07-18\",\"rewrite_prompt\":\"rewrite_v1\"}",
+  "n_queries": 216,
+  "run_id": "cast20.B0_none.rewrite_only.e9624a4ad20a",
+  "run_path": "runs\\trec\\cast20.B0_none.rewrite_only.e9624a4ad20a.run",
+  "stage": "run_retrieval"
+}

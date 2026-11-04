@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+.env
+data/
+# TREC run files ship as a release asset, not in git (see README)
+runs/trec_gz/
+runs/trec/
+trec_runs.tar
+SHA256SUMS.txt

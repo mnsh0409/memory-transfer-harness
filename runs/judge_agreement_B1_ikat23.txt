@@ -1,0 +1,18 @@
+Judge agreement - ikat23.B1_full_history.rewrite_only.9bb5493cda8a.annotated.csv
+
+  scored: 100 decisions
+
+  PER STRATUM (the headline -- the sample is stratified, so these are what you report):
+    judge said ENTAILED  n=32   human agreed 14   (44%)
+    judge said PARTIAL   n=34   human agreed 15   (44%)
+    judge said ABSENT    n=34   human agreed 31   (91%)
+
+  sample-level agreement : 60.0%  (NOT a population estimate - strata are over-weighted by design)
+  Cohen's kappa          : +0.398
+  mean credit delta      : -0.155  (human minus judge, in P/R/F1 credit; + means the judge under-credited)
+
+  confusion (rows = judge, cols = human):
+               ENTAILED   PARTIAL    ABSENT
+    ENTAILED         14         5        13
+    PARTIAL           8        15        11
+    ABSENT            0         3        31

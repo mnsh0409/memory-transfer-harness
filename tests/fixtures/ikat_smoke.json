@@ -1,0 +1,261 @@
+[
+  {
+    "number": "9-1",
+    "title": "Finding a diet",
+    "ptkb": {
+      "1": "I don't like the new spin-off; because I keep comparing the two and it has lower quality.",
+      "2": "Because of my kidney problem, I have to drink water frequently to stay hydrated.",
+      "3": "I'm going to change my phone.",
+      "4": "I can't exercise too much because of the heart problem that I have.",
+      "5": "I'm vegetarian.",
+      "6": "I'm lactose intolerant.",
+      "7": "I'm allergic to soybeans.",
+      "8": "I just finished watching the Game of Thrones.",
+      "9": "I didn't like how the series ended, especially the war scenes.",
+      "10": "I'm an Android user."
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "utterance": "Can you help me find a diet for myself?",
+        "resolved_utterance": "Can you help me find a diet for myself considering that I'm vegetarian, allergic to soybeans, lactose intolerant, can't exercise too much, and should drink water regularly?",
+        "response": "Sure, these diets fit your condition and preference: 1) Vegan Mediterranean combines the principles of the Mediterranean diet with veganism and emphasizes whole grains, vegetables, beans, nuts, seeds, herbs, and spices. It excludes animal foods while incorporating plant-based alternatives, offering a sustainable and compassionate approach. (2) Vegan Keto: is a high-fat, low-carbohydrate, and moderate-protein diet which is also exclusively plant-based. It suits individuals following a vegan lifestyle who wish to adopt a ketogenic eating plan. (3) Eco-Atkins is a vegetarian variation of the Atkins diet which focuses on whole grains, vegetables, tofu, legumes, nuts, and seeds while minimizing animal products. By reducing carbohydrate intake and incorporating plant-based protein sources, it promotes sustainability and healthier eating. (4) The Ornish Diet (with limited exercise) is designed to improve overall health, support weight loss, and reverse cardiovascular disease progression, the Ornish diet is low in fat. It emphasizes exercise, stress management, and healthy relationships alongside a low-fat eating plan. It is worth noting that vegan diets, in general, have been linked to a lower risk of chronic health conditions, including heart disease. These diet options provide alternatives for individuals with specific dietary preferences and goals.",
+        "ptkb_provenance": [
+          5,
+          4,
+          2
+        ],
+        "response_provenance": [
+          "clueweb22-en0035-25-01897:1",
+          "clueweb22-en0004-30-08099:2",
+          "clueweb22-en0038-84-16253:4",
+          "clueweb22-en0020-69-12751:1",
+          "clueweb22-en0007-46-12888:5"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "utterance": "Ok, good. Can you tell me what diet is the fastest way to lose some weight?",
+        "resolved_utterance": "Ok, good. Can you tell me what diet is the fastest way to lose some weight?",
+        "response": "The foundation of successful weight loss remains a healthy, calorie-controlled diet combined with increased physical activity. For successful, long-term weight loss, you must make permanent changes in your lifestyle and health habits. It's difficult to say which of these diets is the fastest way to lose weight as it can vary from person to person. However, according to some studies, the best weight loss diet is the weight watchers diet which is not a very healthy diet and includes eating meat. So, this diet is not suitable for you. Also, all aforementioned vegan diets can help fast weight loss. It's important to note that any diet should be followed under the guidance of a healthcare professional to ensure that it is safe and appropriate for your individual needs. It's also important to remember that weight loss is not just about diet, but also about exercise and lifestyle changes.",
+        "ptkb_provenance": [
+          5,
+          4,
+          2
+        ],
+        "response_provenance": [
+          "clueweb22-en0015-64-14250:2",
+          "clueweb22-en0022-46-06228:2",
+          "clueweb22-en0021-70-09750:3",
+          "clueweb22-en0015-64-14250:8",
+          "clueweb22-en0005-12-05792:4"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "utterance": "What about the DASH diet? I heard it is a healthy diet.",
+        "resolved_utterance": "What about the DASH diet? I heard it is a healthy diet.",
+        "response": "DASH diet is also a healthy diet that aims to reduce sodium intake while increasing the consumption of foods that are rich in nutrients. However, this diet includes meat and/or chicken. Since you are vegetarian this option is not suitable for you.",
+        "ptkb_provenance": [
+          5
+        ],
+        "response_provenance": [
+          "clueweb22-en0020-69-12751:1",
+          "clueweb22-en0028-21-06213:1"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "utterance": "I prefer a natural diet, not a pill-based diet. Which of the aforementioned ones is natural?",
+        "resolved_utterance": "I prefer a natural diet, not a pill-based diet. Which of the Vegan Mediterranean, Vegan Keto, Eco-Atkins, and Ornish Diet diets are natural?",
+        "response": "There are pills and capsules based on the aforementioned diets. For example, Keto capsules. However, none of the Vegan Mediterranean, Vegan Keto, Eco-Atkins, and Ornish Diets mentioned before were based on the pills and they were all based on food limitations.",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0023-50-14672:1",
+          "clueweb22-en0035-25-01897:1",
+          "clueweb22-en0004-30-08099:2",
+          "clueweb22-en0038-84-16253:4",
+          "clueweb22-en0020-69-12751:1"
+        ]
+      },
+      {
+        "turn_id": 5,
+        "utterance": "Can you eat fish in any of them?",
+        "resolved_utterance": "Can you eat fish in any of the Vegan Mediterranean, Vegan Keto, Eco-Atkins, and Ornish Diets?",
+        "response": "You can eat fish in the Ornish diet. Also, there is no Mediterranean meal written in stone. Hence, you can modify the diet to include fish. The original Mediterranean diet includes fish and seafood.",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0020-69-12751:1",
+          "clueweb22-en0006-62-00572:1",
+          "clueweb22-en0030-87-16036:1"
+        ]
+      },
+      {
+        "turn_id": 6,
+        "utterance": "Thanks, but I also want the diet to be maintainable and not very hard to keep up.",
+        "resolved_utterance": "Thanks, but I also want the diet to be maintainable and not very hard to keep up.",
+        "response": "The modified vegan/vegetarian Mediterranean diet is one of the best and most sustainable diets and it can include fish. I recommend this one.",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0017-20-03625:2"
+        ]
+      }
+    ]
+  },
+  {
+    "number": "9-2",
+    "title": "Finding a diet",
+    "ptkb": {
+      "1": "I'm quite into cars.",
+      "2": "I'm having a social dinner with colleagues tonight.",
+      "3": "Traveling to Florida next week.",
+      "4": "I'm 155 cm tall.",
+      "5": "I have gained weight and now I'm 100 Kg.",
+      "6": "I have a knee injury.",
+      "7": "I had a big fight with my wife recently.",
+      "8": "I'm American.",
+      "9": "I'm a beer guy.",
+      "10": "I'm a 56 years old.",
+      "11": "I don't like surgical solutions."
+    },
+    "turns": [
+      {
+        "turn_id": 1,
+        "utterance": "I think I am overweight, how can I measure obesity?",
+        "resolved_utterance": "I think I am overweight, how can I measure obesity?",
+        "response": "There are many ways to measure obesity status such as the weight-for-height index, BMI, waist circumference (WC), waist-hip ratio (WHR), and body fat percentage estimated by skinfold thickness (ST). BMI has been widely used since the 1990s to classify overweight and obesity. BMI is easy to measure and closely associated with obesity-related health risks. However, it fails to distinguish between fat, muscle, or bone mass and can lead to misclassification, especially among muscular individuals. Other measures like WC and WHR are useful for characterizing obesity morphology and considering differences in anthropometry among subjects.",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0035-35-09152:7",
+          "clueweb22-en0035-35-09152:8"
+        ]
+      },
+      {
+        "turn_id": 2,
+        "utterance": "I have heard of BMI but what are the other two? Why do I need them?",
+        "resolved_utterance": "I have heard of BMI but what are waist circumference and waist-hip ratio? Why do I need waist circumference and waist-hip ratio?",
+        "response": "Waist circumference and waist-hip ratio are important indicators of central fat distribution and complement BMI, but they should not be used as substitutes for BMI. A larger waist circumference, especially in individuals with central fat distribution, is associated with an increased risk of cardiovascular disease, type 2 diabetes, hypertension, certain cancers, and kidney disease. Visceral fat stored around internal organs is metabolically active and can have negative effects on vascular function and inflammation. While BMI measures total fat levels, waist metrics focus on fat distribution. When used together, BMI and waist metrics provide a more comprehensive assessment of cardiometabolic risk. By considering both total fat and fat distribution, these measures help identify individuals at higher risk for various diseases. Maintaining a healthy waist circumference is crucial for reducing these risks. In conclusion, waist circumference and waist-hip ratio are valuable additions to BMI in assessing fat distribution and predicting cardiometabolic risks.",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0046-55-09231:2",
+          "clueweb22-en0046-55-09231:3"
+        ]
+      },
+      {
+        "turn_id": 3,
+        "utterance": "Ok, I heard about BMI, what's a good BMI? What is mine?",
+        "resolved_utterance": "Ok, I heard about BMI, what's a good BMI? What is my BMI?",
+        "response": "A normal BMI for you is 18.5 to 24.9. If you're based in a country that is using the metric system, your BMI would be calculated by dividing your weight in kilos (kg) by your height in meters squared (m2). Your BMI is 41.6 which is categorized as overweight.",
+        "ptkb_provenance": [
+          4,
+          5,
+          10
+        ],
+        "response_provenance": [
+          "clueweb22-en0003-80-07249:4",
+          "clueweb22-en0014-71-11487:0",
+          "clueweb22-en0012-21-11209:4",
+          "clueweb22-en0020-29-08873:3"
+        ]
+      },
+      {
+        "turn_id": 4,
+        "utterance": "Ok, I didn't expect it, now what can I do to lose some weight?",
+        "resolved_utterance": "Ok, I didn't expect it, now what can I do to lose some weight?",
+        "response": "There are surgical methods you might not like and nonsurgical methods like healthy diet and exercise. Which one do you prefer?",
+        "ptkb_provenance": [
+          11
+        ],
+        "response_provenance": [
+          "clueweb22-en0033-52-13433:2"
+        ]
+      },
+      {
+        "turn_id": 5,
+        "utterance": "I can't exercise. So I think my only option is the first one?",
+        "resolved_utterance": "I can't exercise. So I think my only option is going on a diet?",
+        "response": "You can still do cardio with a knee injury and lose some weight. A lower-impact activity like cycling or swimming is possible. There are also many diets that can help you lose weight. Do you want me to explain more about cardio or diets?",
+        "ptkb_provenance": [
+          6,
+          11
+        ],
+        "response_provenance": [
+          "clueweb22-en0014-80-11015:0"
+        ]
+      },
+      {
+        "turn_id": 6,
+        "utterance": "First help me choose a diet. Later on, I may ask about the first option.",
+        "resolved_utterance": "First help me choose a diet. Later on, I may ask about cardio.",
+        "response": "There are many diets, and each has its properties. For example, Weight loss diets, Low-calorie diets, Diet plans Healthy diets, Sports diets, Office weight loss Vegetarian diets, Diet food Famous diets. Diabetes diets, Fast diets, Detox diets, Fruit diets, Pills diets, Allergy diets, Low-cholesterol diets, Food combining diets, Celebrity diets, Hollywood diets, Model diets, Singer diets, Gossip diets, and many more. What are your preferences or limitations in a diet?",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0031-11-07743:4"
+        ]
+      },
+      {
+        "turn_id": 7,
+        "utterance": "Ok I have a lot of options. I don't have diabetes and also I'm not into following celebrities. Hmm, which one is the quickest?",
+        "resolved_utterance": "Ok I have a lot of options. I don't have diabetes and also I'm not into following celebrities. Hmm, which one is the quickest diet to lose weight?",
+        "response": "U.S. News Expert Review for 2022 shows that the Atkins diet is the quickest weight loss diet among the mentioned diets.",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0009-07-09554:0"
+        ]
+      },
+      {
+        "turn_id": 8,
+        "utterance": "Interesting. Tell me more.",
+        "resolved_utterance": "Interesting. Tell me more about the Atkins diet.",
+        "response": "The Atkins diet is a low-carbohydrate, ketogenic diet. Low-carbohydrate diets have been linked to weight loss and improvements in insulin regulation. They're also suitable for people with certain health issues, like epilepsy. The Atkins Diet now exists in several forms: Atkins 20, Atkins 40, and Atkins 100. The numbers in these names relate to the amount of carbohydrates you can consume each day on these diets. However, fiber and sugar alcohols don't count toward these carbohydrate totals, which means you're counting net carbohydrates. The vegetables you can eat on the Atkins diet may depend on the form you're following and the phase you're in. The lowest-carb veggies, those with 0.1 to 1.0 grams of net carbs per 1/2 cup, include escarole, bok choy, spinach, endive, and celery.",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0035-88-14672:1",
+          "clueweb22-en0045-09-12445:2"
+        ]
+      },
+      {
+        "turn_id": 9,
+        "utterance": "What is the difference between the two variations of the diet you mentioned?",
+        "resolved_utterance": "What is the difference between Atkins 20 and Atkins 40 diets that you mentioned?",
+        "response": "The Atkins 20 is designed for individuals who need to lose more than 40 pounds, have a waist size over 35 (if female) or 40 (if male), or are currently diabetic or pre-diabetic. On the other hand, the Atkins 40 plan is intended for those who need to lose less than 40 pounds, are pregnant, or are breastfeeding. The difference between the two plans lies in the amount of carbohydrates allowed during the induction phase. The Atkins 20 allows 20 grams of net carbs per day, while the Atkins 40 allows 40 grams of net carbs per day. These numbers represent the maximum carbohydrate intake during the initial phase of each plan.",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0004-81-09902:1",
+          "clueweb22-en0004-81-09902:2"
+        ]
+      },
+      {
+        "turn_id": 10,
+        "utterance": "Ok, good info. Now, tell me about the next.",
+        "resolved_utterance": "Ok, good info. Now, tell me about the next option of weight loss.",
+        "response": "Do you mean the next diet?",
+        "ptkb_provenance": [],
+        "response_provenance": []
+      },
+      {
+        "turn_id": 11,
+        "utterance": "No, I mean cardio.",
+        "resolved_utterance": "No, I mean cardio.",
+        "response": "Ah ok, got it. Cardio, short for cardiovascular exercise, refers to aerobic physical activity that increases your heart rate and gets your blood pumping. It includes any form of exercise that elevates heart rate and involves rhythmic movements, such as walking, water aerobics, cycling, swimming, yoga, and strength training all help improve the symptoms associated with arthritic knee pain and knee pain in general. The type of aerobic exercise that works best for you will depend, in part, on the cause of your knee problems. Your physical therapist is the best source of information on what's right for your body and your injury.",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0033-59-02067:3",
+          "clueweb22-en0011-44-00288:3",
+          "clueweb22-en0009-97-11907:1",
+          "clueweb22-en0009-97-11907:2"
+        ]
+      },
+      {
+        "turn_id": 12,
+        "utterance": "Ok, I think for now I'll stick to dieting. By the way, can I eat meat in this diet since you explained a lot about veggies?",
+        "resolved_utterance": "Ok, I think for now I'll stick to the Atkins diet. By the way, can I eat meat in the Atkins diet since you explained a lot about veggies?",
+        "response": "Yes, In fact, the Atkins diet is a protein-heavy diet that promotes weight loss through reduced carbohydrates and increased protein consumption.",
+        "ptkb_provenance": [],
+        "response_provenance": [
+          "clueweb22-en0013-96-16013:0"
+        ]
+      }
+    ]
+  }
+]

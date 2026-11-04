@@ -1,0 +1,479 @@
+{"dialogue_id": "31", "turn_id": "31_1", "utterance": "What is throat cancer?", "memory_block": "", "query": "What are the symptoms and causes of throat cancer?"}
+{"dialogue_id": "31", "turn_id": "31_2", "utterance": "Is it treatable?", "memory_block": "", "query": "Is throat cancer treatable?"}
+{"dialogue_id": "31", "turn_id": "31_3", "utterance": "Tell me about lung cancer.", "memory_block": "", "query": "What is lung cancer?"}
+{"dialogue_id": "31", "turn_id": "31_4", "utterance": "What are its symptoms?", "memory_block": "", "query": "What are the symptoms of throat cancer?"}
+{"dialogue_id": "31", "turn_id": "31_5", "utterance": "Can it spread to the throat?", "memory_block": "", "query": "Can lung cancer spread to the throat?"}
+{"dialogue_id": "31", "turn_id": "31_6", "utterance": "What causes throat cancer?", "memory_block": "", "query": "What causes throat cancer?"}
+{"dialogue_id": "31", "turn_id": "31_7", "utterance": "What is the first sign of it?", "memory_block": "", "query": "What is the first sign of throat cancer?"}
+{"dialogue_id": "31", "turn_id": "31_8", "utterance": "Is it the same as esophageal cancer?", "memory_block": "", "query": "Is throat cancer the same as esophageal cancer?"}
+{"dialogue_id": "31", "turn_id": "31_9", "utterance": "What's the difference in their symptoms?", "memory_block": "", "query": "What is the difference in symptoms between throat cancer and esophageal cancer?"}
+{"dialogue_id": "32", "turn_id": "32_1", "utterance": "What are the different types of sharks?", "memory_block": "", "query": "What are the different types of sharks?"}
+{"dialogue_id": "32", "turn_id": "32_2", "utterance": "Are sharks endangered? If so, which species?", "memory_block": "", "query": "Are sharks endangered and which species are at risk?"}
+{"dialogue_id": "32", "turn_id": "32_3", "utterance": "Tell me more about tiger sharks.", "memory_block": "", "query": "Information about tiger sharks."}
+{"dialogue_id": "32", "turn_id": "32_4", "utterance": "What is the largest ever to have lived on Earth?", "memory_block": "", "query": "What is the largest shark species to have ever lived on Earth?"}
+{"dialogue_id": "32", "turn_id": "32_5", "utterance": "What's the biggest ever caught?", "memory_block": "", "query": "What is the largest shark ever caught?"}
+{"dialogue_id": "32", "turn_id": "32_6", "utterance": "What about for great whites?", "memory_block": "", "query": "What is the largest great white shark ever caught?"}
+{"dialogue_id": "32", "turn_id": "32_7", "utterance": "Tell me about makos.", "memory_block": "", "query": "What are mako sharks?"}
+{"dialogue_id": "32", "turn_id": "32_8", "utterance": "What are their adaptations?", "memory_block": "", "query": "What are the adaptations of sharks?"}
+{"dialogue_id": "32", "turn_id": "32_9", "utterance": "Where do they live?", "memory_block": "", "query": "Where do tiger sharks live?"}
+{"dialogue_id": "32", "turn_id": "32_10", "utterance": "What do they eat?", "memory_block": "", "query": "What do tiger sharks eat?"}
+{"dialogue_id": "32", "turn_id": "32_11", "utterance": "How do they compare with tigers for being dangerous?", "memory_block": "", "query": "How do tiger sharks compare to tigers in terms of danger to humans?"}
+{"dialogue_id": "33", "turn_id": "33_1", "utterance": "Tell me about the Neverending Story film.", "memory_block": "", "query": "Information about the film \"The NeverEnding Story.\""}
+{"dialogue_id": "33", "turn_id": "33_2", "utterance": "What is it about?", "memory_block": "", "query": "What is the plot of the Neverending Story film?"}
+{"dialogue_id": "33", "turn_id": "33_3", "utterance": "How was it received?", "memory_block": "", "query": "How was the Neverending Story film received by critics and audiences?"}
+{"dialogue_id": "33", "turn_id": "33_4", "utterance": "Did it win any awards?", "memory_block": "", "query": "Did the film The Neverending Story win any awards?"}
+{"dialogue_id": "33", "turn_id": "33_5", "utterance": "Was it a book first?", "memory_block": "", "query": "Did the Neverending Story originate as a book before the film?"}
+{"dialogue_id": "33", "turn_id": "33_6", "utterance": "Who was the author and when what it published?", "memory_block": "", "query": "Who was the author of The Neverending Story and when was it published?"}
+{"dialogue_id": "33", "turn_id": "33_7", "utterance": "What are the main themes?", "memory_block": "", "query": "What are the main themes of the Neverending Story film?"}
+{"dialogue_id": "33", "turn_id": "33_8", "utterance": "Who are the main characters?", "memory_block": "", "query": "Who are the main characters in the Neverending Story film?"}
+{"dialogue_id": "33", "turn_id": "33_9", "utterance": "What are the differences between the book and movies?", "memory_block": "", "query": "What are the differences between The Neverending Story book and movie adaptations?"}
+{"dialogue_id": "33", "turn_id": "33_10", "utterance": "Did the horse Artax really die?", "memory_block": "", "query": "Did the horse Artax die in the Neverending Story film?"}
+{"dialogue_id": "34", "turn_id": "34_1", "utterance": "Tell me about the Bronze Age collapse.", "memory_block": "", "query": "What caused the Bronze Age collapse?"}
+{"dialogue_id": "34", "turn_id": "34_2", "utterance": "What is the evidence for it?", "memory_block": "", "query": "What is the evidence for the Bronze Age collapse?"}
+{"dialogue_id": "34", "turn_id": "34_3", "utterance": "What are some of the possible causes?", "memory_block": "", "query": "What are some possible causes of the Bronze Age collapse?"}
+{"dialogue_id": "34", "turn_id": "34_4", "utterance": "Who were the Sea Peoples?", "memory_block": "", "query": "Who were the Sea Peoples during the Bronze Age collapse?"}
+{"dialogue_id": "34", "turn_id": "34_5", "utterance": "What was their role in it?", "memory_block": "", "query": "What was the role of the Sea Peoples in the Bronze Age collapse?"}
+{"dialogue_id": "34", "turn_id": "34_6", "utterance": "What other factors led to a breakdown of trade?", "memory_block": "", "query": "What factors led to a breakdown of trade during the Bronze Age collapse?"}
+{"dialogue_id": "34", "turn_id": "34_7", "utterance": "What about environmental factors?", "memory_block": "", "query": "What environmental factors contributed to the Bronze Age collapse?"}
+{"dialogue_id": "34", "turn_id": "34_8", "utterance": "What empires survived?", "memory_block": "", "query": "What empires survived the Bronze Age collapse?"}
+{"dialogue_id": "34", "turn_id": "34_9", "utterance": "What came after it?", "memory_block": "", "query": "What historical events or periods followed the Bronze Age collapse?"}
+{"dialogue_id": "35", "turn_id": "35_1", "utterance": "Tell me about the history of toilets.", "memory_block": "", "query": "History of toilets"}
+{"dialogue_id": "35", "turn_id": "35_2", "utterance": "Where does the term come from?", "memory_block": "", "query": "Origin of the term \"toilet\""}
+{"dialogue_id": "35", "turn_id": "35_3", "utterance": "Where and when was the first invented?", "memory_block": "", "query": "Where and when was the first toilet invented?"}
+{"dialogue_id": "35", "turn_id": "35_4", "utterance": "Why do the Brits call it a loo?", "memory_block": "", "query": "Why do British people refer to a toilet as a loo?"}
+{"dialogue_id": "35", "turn_id": "35_5", "utterance": "What came before them?", "memory_block": "", "query": "What types of sanitation systems existed before modern toilets?"}
+{"dialogue_id": "35", "turn_id": "35_6", "utterance": "When did indoor versions become common?", "memory_block": "", "query": "When did indoor toilets become common?"}
+{"dialogue_id": "35", "turn_id": "35_7", "utterance": "How many types are there?", "memory_block": "", "query": "What are the different types of toilets?"}
+{"dialogue_id": "35", "turn_id": "35_8", "utterance": "Why are they so important for society?", "memory_block": "", "query": "Why are toilets important for society?"}
+{"dialogue_id": "35", "turn_id": "35_9", "utterance": "What is their role in film?", "memory_block": "", "query": "What is the role of toilets in film?"}
+{"dialogue_id": "36", "turn_id": "36_1", "utterance": "What is the US Electoral College?", "memory_block": "", "query": "What is the United States Electoral College?"}
+{"dialogue_id": "36", "turn_id": "36_2", "utterance": "How does it work?", "memory_block": "", "query": "How does the US Electoral College work?"}
+{"dialogue_id": "36", "turn_id": "36_3", "utterance": "Tell me about its creation.", "memory_block": "", "query": "What is the history of the creation of the US Electoral College?"}
+{"dialogue_id": "36", "turn_id": "36_4", "utterance": "Why was the system chosen?", "memory_block": "", "query": "Why was the US Electoral College system chosen?"}
+{"dialogue_id": "36", "turn_id": "36_5", "utterance": "How has it changed over time?", "memory_block": "", "query": "How has the US Electoral College changed over time?"}
+{"dialogue_id": "36", "turn_id": "36_6", "utterance": "What if the electors don't vote for the pledged candidate?", "memory_block": "", "query": "What happens if the electors in the US Electoral College do not vote for the pledged candidate?"}
+{"dialogue_id": "36", "turn_id": "36_7", "utterance": "How has this changed election outcomes?", "memory_block": "", "query": "How has the US Electoral College changed election outcomes?"}
+{"dialogue_id": "36", "turn_id": "36_8", "utterance": "Who are the Hamilton Electors and what were they trying to do?", "memory_block": "", "query": "Who are the Hamilton Electors and what was their purpose?"}
+{"dialogue_id": "36", "turn_id": "36_9", "utterance": "How would the College be abolished?", "memory_block": "", "query": "How can the US Electoral College be abolished?"}
+{"dialogue_id": "36", "turn_id": "36_10", "utterance": "How does the National Popular Vote Interstate Compact work?", "memory_block": "", "query": "How does the National Popular Vote Interstate Compact work?"}
+{"dialogue_id": "36", "turn_id": "36_11", "utterance": "Is it legal?", "memory_block": "", "query": "Is the National Popular Vote Interstate Compact legal?"}
+{"dialogue_id": "37", "turn_id": "37_1", "utterance": "What was the Stanford Experiment?", "memory_block": "", "query": "What is the Stanford Prison Experiment?"}
+{"dialogue_id": "37", "turn_id": "37_2", "utterance": "What did it show?", "memory_block": "", "query": "What did the Stanford Experiment show?"}
+{"dialogue_id": "37", "turn_id": "37_3", "utterance": "Tell me about the author of the experiment.", "memory_block": "", "query": "Who is the author of the Stanford Experiment?"}
+{"dialogue_id": "37", "turn_id": "37_4", "utterance": "Was it ethical?", "memory_block": "", "query": "Was the Stanford Experiment ethical?"}
+{"dialogue_id": "37", "turn_id": "37_5", "utterance": "What are other similar experiments?", "memory_block": "", "query": "What are other experiments similar to the Stanford Prison Experiment?"}
+{"dialogue_id": "37", "turn_id": "37_6", "utterance": "What happened in the Milgram experiment?", "memory_block": "", "query": "What happened in the Milgram experiment?"}
+{"dialogue_id": "37", "turn_id": "37_7", "utterance": "Why was it important?", "memory_block": "", "query": "Importance of the Stanford Prison Experiment"}
+{"dialogue_id": "37", "turn_id": "37_8", "utterance": "What were the similarities and differences between the studies?", "memory_block": "", "query": "What were the similarities and differences between the Stanford Experiment and the Milgram Experiment?"}
+{"dialogue_id": "37", "turn_id": "37_9", "utterance": "What about the BBC experiment?", "memory_block": "", "query": "What was the BBC experiment?"}
+{"dialogue_id": "37", "turn_id": "37_10", "utterance": "What are the key findings?", "memory_block": "", "query": "What are the key findings of the Stanford Experiment?"}
+{"dialogue_id": "37", "turn_id": "37_11", "utterance": "How did the results differ?", "memory_block": "", "query": "How did the results of the Stanford Experiment differ from the Milgram experiment?"}
+{"dialogue_id": "37", "turn_id": "37_12", "utterance": "Why was it ended?", "memory_block": "", "query": "Why was the Stanford Prison Experiment ended?"}
+{"dialogue_id": "38", "turn_id": "38_1", "utterance": "What is Lyme disease?", "memory_block": "", "query": "What is Lyme disease?"}
+{"dialogue_id": "38", "turn_id": "38_2", "utterance": "How do you get Lyme Disease?", "memory_block": "", "query": "How is Lyme disease transmitted?"}
+{"dialogue_id": "38", "turn_id": "38_3", "utterance": "How does it make you feel?", "memory_block": "", "query": "What are the symptoms and effects of Lyme disease?"}
+{"dialogue_id": "38", "turn_id": "38_4", "utterance": "What happens if it goes untreated?", "memory_block": "", "query": "What happens if Lyme disease goes untreated?"}
+{"dialogue_id": "38", "turn_id": "38_5", "utterance": "Can it kill you?", "memory_block": "", "query": "Can Lyme disease be fatal?"}
+{"dialogue_id": "38", "turn_id": "38_6", "utterance": "How reliable is the test?", "memory_block": "", "query": "How reliable is the Lyme disease test?"}
+{"dialogue_id": "38", "turn_id": "38_7", "utterance": "Can it be cured?", "memory_block": "", "query": "Can Lyme disease be cured?"}
+{"dialogue_id": "38", "turn_id": "38_8", "utterance": "What is Chronic Lyme?", "memory_block": "", "query": "What is Chronic Lyme disease?"}
+{"dialogue_id": "39", "turn_id": "39_1", "utterance": "What does it mean to be a vegan?", "memory_block": "", "query": "What does it mean to be a vegan?"}
+{"dialogue_id": "39", "turn_id": "39_2", "utterance": "What is the environmental argument for it?", "memory_block": "", "query": "What is the environmental argument for being a vegan?"}
+{"dialogue_id": "39", "turn_id": "39_3", "utterance": "Do you need milk for strong bones?", "memory_block": "", "query": "Is milk necessary for maintaining strong bones?"}
+{"dialogue_id": "39", "turn_id": "39_4", "utterance": "What are other good sources of calcium?", "memory_block": "", "query": "What are good sources of calcium for a vegan diet?"}
+{"dialogue_id": "39", "turn_id": "39_5", "utterance": "If you don't eat any meat, at all, is it bad for you?", "memory_block": "", "query": "Is it unhealthy to not eat any meat at all?"}
+{"dialogue_id": "39", "turn_id": "39_6", "utterance": "What are good sources of vitamin B12?", "memory_block": "", "query": "What are good sources of vitamin B12 for someone who follows a vegan diet?"}
+{"dialogue_id": "39", "turn_id": "39_7", "utterance": "Does it help you lose weight?", "memory_block": "", "query": "Does being vegan help with weight loss?"}
+{"dialogue_id": "39", "turn_id": "39_8", "utterance": "What about its health effects versus being vegetarian?", "memory_block": "", "query": "What are the health effects of being vegan compared to being vegetarian?"}
+{"dialogue_id": "39", "turn_id": "39_9", "utterance": "How does the environmental impact compare between them?", "memory_block": "", "query": "What is the comparison of the environmental impact between veganism and vegetarianism?"}
+{"dialogue_id": "40", "turn_id": "40_1", "utterance": "What are the origins of popular music?", "memory_block": "", "query": "What are the origins of popular music?"}
+{"dialogue_id": "40", "turn_id": "40_2", "utterance": "What are its characteristics?", "memory_block": "", "query": "What are the characteristics of popular music?"}
+{"dialogue_id": "40", "turn_id": "40_3", "utterance": "What technological developments enabled it?", "memory_block": "", "query": "What technological developments enabled the evolution of popular music?"}
+{"dialogue_id": "40", "turn_id": "40_4", "utterance": "When and why did people start taking pop seriously?", "memory_block": "", "query": "When and why did people start taking popular music seriously?"}
+{"dialogue_id": "40", "turn_id": "40_5", "utterance": "How has it been integrated into music education?", "memory_block": "", "query": "How has popular music been integrated into music education?"}
+{"dialogue_id": "40", "turn_id": "40_6", "utterance": "Describe some of the influential pop bands.", "memory_block": "", "query": "Describe some influential pop bands."}
+{"dialogue_id": "40", "turn_id": "40_7", "utterance": "What makes a song pop punk?", "memory_block": "", "query": "What are the characteristics of pop punk music?"}
+{"dialogue_id": "40", "turn_id": "40_8", "utterance": "What is the difference between it and emo?", "memory_block": "", "query": "What is the difference between pop punk and emo music?"}
+{"dialogue_id": "40", "turn_id": "40_9", "utterance": "How did Britpop change music?", "memory_block": "", "query": "How did Britpop change popular music?"}
+{"dialogue_id": "40", "turn_id": "40_10", "utterance": "What are its roots and what influenced it?", "memory_block": "", "query": "What are the roots of popular music and what influences it?"}
+{"dialogue_id": "41", "turn_id": "41_1", "utterance": "Why is the drinking age in the US 21 and not 18?", "memory_block": "", "query": "Why is the legal drinking age in the United States set at 21 instead of 18?"}
+{"dialogue_id": "41", "turn_id": "41_2", "utterance": "What were the pros and cons?", "memory_block": "", "query": "What are the pros and cons of setting the drinking age in the US at 21 instead of 18?"}
+{"dialogue_id": "41", "turn_id": "41_3", "utterance": "Tell me about the negative health effects of drinking.", "memory_block": "", "query": "What are the negative health effects of drinking alcohol?"}
+{"dialogue_id": "41", "turn_id": "41_4", "utterance": "How does binge drinking affect development?", "memory_block": "", "query": "How does binge drinking affect brain development?"}
+{"dialogue_id": "41", "turn_id": "41_5", "utterance": "Can it damage mental health?", "memory_block": "", "query": "Does binge drinking damage mental health?"}
+{"dialogue_id": "41", "turn_id": "41_6", "utterance": "What are the short and long-term effects of usage on brain chemicals?", "memory_block": "", "query": "What are the short and long-term effects of alcohol usage on brain chemicals?"}
+{"dialogue_id": "41", "turn_id": "41_7", "utterance": "Are alcoholics generally depressed?", "memory_block": "", "query": "Are alcoholics generally more likely to experience depression?"}
+{"dialogue_id": "41", "turn_id": "41_8", "utterance": "What are the effects on vitamins and minerals?", "memory_block": "", "query": "What are the effects of alcohol consumption on vitamins and minerals?"}
+{"dialogue_id": "41", "turn_id": "41_9", "utterance": "Are there any benefits?", "memory_block": "", "query": "What are the benefits of alcohol consumption?"}
+{"dialogue_id": "42", "turn_id": "42_1", "utterance": "What is Chattanooga famous for?", "memory_block": "", "query": "What is Chattanooga, Tennessee famous for?"}
+{"dialogue_id": "42", "turn_id": "42_2", "utterance": "What is there to do in downtown Chattanooga?", "memory_block": "", "query": "What are the attractions and activities in downtown Chattanooga?"}
+{"dialogue_id": "42", "turn_id": "42_3", "utterance": "Are there tourism activities related to trucks or trains?", "memory_block": "- Looking for things to do in downtown Chattanooga", "query": "Are there tourism activities related to trucks or trains in downtown Chattanooga?"}
+{"dialogue_id": "42", "turn_id": "42_4", "utterance": "Are there any related to Bessie Smith?", "memory_block": "- Looking for things to do in downtown Chattanooga\n- Interested in tourism activities related to trucks or trains", "query": "Are there any tourism activities related to Bessie Smith in downtown Chattanooga?"}
+{"dialogue_id": "42", "turn_id": "42_5", "utterance": "Can I visit some nearby distilleries?", "memory_block": "- Looking for things to do in downtown Chattanooga\n- Interested in tourism activities related to trucks or trains", "query": "Can I visit distilleries near downtown Chattanooga?"}
+{"dialogue_id": "42", "turn_id": "42_6", "utterance": "What is Rock City, and why is it famous?", "memory_block": "- Looking for things to do in downtown Chattanooga\n- Can visit some nearby distilleries\n- Interested in tourism activities related to trucks or trains", "query": "What is Rock City in Chattanooga, and why is it famous?"}
+{"dialogue_id": "42", "turn_id": "42_7", "utterance": "Are special events held there?", "memory_block": "- Looking for things to do in downtown Chattanooga\n- Can visit some nearby distilleries\n- Interested in tourism activities related to trucks or trains", "query": "Are special events held at Rock City in Chattanooga?"}
+{"dialogue_id": "42", "turn_id": "42_8", "utterance": "What kind of food is Chattanooga known for?", "memory_block": "- Looking for things to do in downtown Chattanooga\n- Can visit some nearby distilleries\n- Interested in tourism activities related to trucks or trains", "query": "What kind of food is Chattanooga known for?"}
+{"dialogue_id": "43", "turn_id": "43_1", "utterance": "What are some interesting things around Ann Arbor?", "memory_block": "", "query": "Interesting attractions and activities in Ann Arbor"}
+{"dialogue_id": "43", "turn_id": "43_2", "utterance": "Tell me about when the city was founded.", "memory_block": "- Looking for interesting things around Ann Arbor", "query": "When was Ann Arbor founded?"}
+{"dialogue_id": "43", "turn_id": "43_3", "utterance": "How does it relate to the establishment of the University?", "memory_block": "- Looking for interesting things around Ann Arbor", "query": "How is the founding of Ann Arbor related to the establishment of the University of Michigan?"}
+{"dialogue_id": "43", "turn_id": "43_4", "utterance": "Does the Museum of Art have any special collections?", "memory_block": "- Looking for interesting things around Ann Arbor", "query": "Does the Museum of Art in Ann Arbor have any special collections?"}
+{"dialogue_id": "43", "turn_id": "43_5", "utterance": "What is the South Pond Nature Area?", "memory_block": "- Looking for interesting things around Ann Arbor", "query": "What is the South Pond Nature Area in Ann Arbor?"}
+{"dialogue_id": "43", "turn_id": "43_6", "utterance": "Are there any film festivals?", "memory_block": "- Looking for interesting things around Ann Arbor", "query": "Are there any film festivals in Ann Arbor?"}
+{"dialogue_id": "43", "turn_id": "43_7", "utterance": "How about for jazz?", "memory_block": "- Inquiring about film festivals\n- Looking for interesting things around Ann Arbor", "query": "Are there any jazz film festivals in Ann Arbor?"}
+{"dialogue_id": "43", "turn_id": "43_8", "utterance": "What are popular bars or clubs where I can listen to it?", "memory_block": "- Looking for interesting things around Ann Arbor\n- Inquiring about film festivals", "query": "Popular bars or clubs in Ann Arbor where I can listen to jazz music."}
+{"dialogue_id": "44", "turn_id": "44_1", "utterance": "What causes acidic reflux in the morning?", "memory_block": "", "query": "What are the causes of acid reflux in the morning?"}
+{"dialogue_id": "44", "turn_id": "44_2", "utterance": "Does it have long term side effects?", "memory_block": "", "query": "What are the long-term side effects of acidic reflux?"}
+{"dialogue_id": "44", "turn_id": "44_3", "utterance": "What is the best OTC for it?", "memory_block": "", "query": "What is the best over-the-counter medication for acid reflux?"}
+{"dialogue_id": "44", "turn_id": "44_4", "utterance": "What are the side effects of long term PPI use?", "memory_block": "", "query": "What are the side effects of long-term use of proton pump inhibitors (PPIs)?"}
+{"dialogue_id": "44", "turn_id": "44_5", "utterance": "Tell me about natural treatments.", "memory_block": "", "query": "What are natural treatments for acid reflux?"}
+{"dialogue_id": "44", "turn_id": "44_6", "utterance": "What foods cause it?", "memory_block": "", "query": "What foods cause acidic reflux?"}
+{"dialogue_id": "44", "turn_id": "44_7", "utterance": "What ones reduce it?", "memory_block": "", "query": "What natural treatments reduce acidic reflux?"}
+{"dialogue_id": "44", "turn_id": "44_8", "utterance": "How does exercise affect it?", "memory_block": "", "query": "How does exercise affect acid reflux?"}
+{"dialogue_id": "45", "turn_id": "45_1", "utterance": "What dog breed is the best for playing?", "memory_block": "", "query": "What is the best dog breed for playing?"}
+{"dialogue_id": "45", "turn_id": "45_2", "utterance": "What kind should I get if I’m allergic?", "memory_block": "- User is interested in dog breeds suitable for playing", "query": "What dog breeds are suitable for playing and hypoallergenic?"}
+{"dialogue_id": "45", "turn_id": "45_3", "utterance": "How about big and active dogs?", "memory_block": "- User is interested in dog breeds suitable for playing", "query": "What are some big and active dog breeds suitable for playing that are also hypoallergenic?"}
+{"dialogue_id": "45", "turn_id": "45_4", "utterance": "Do big dogs live longer than small dogs?", "memory_block": "- User is interested in dog breeds suitable for playing", "query": "Do big dogs have a longer lifespan than small dogs?"}
+{"dialogue_id": "45", "turn_id": "45_5", "utterance": "Will I need to put a lot of time into training?", "memory_block": "- User is interested in dog breeds suitable for playing", "query": "Do big and active dog breeds require a lot of training?"}
+{"dialogue_id": "45", "turn_id": "45_6", "utterance": "Tell me about some breeds that are independent and can be left home all day.", "memory_block": "- User is interested in dog breeds suitable for playing", "query": "What are some dog breeds that are independent and can be left home alone all day?"}
+{"dialogue_id": "45", "turn_id": "45_7", "utterance": "How much does a Irish Wolfhound weigh?", "memory_block": "- User is interested in dog breeds suitable for playing", "query": "What is the weight range of an Irish Wolfhound?"}
+{"dialogue_id": "45", "turn_id": "45_8", "utterance": "How much do they cost?", "memory_block": "- User is interested in dog breeds suitable for playing", "query": "What is the cost of an Irish Wolfhound?"}
+{"dialogue_id": "46", "turn_id": "46_1", "utterance": "Why is learning a second language difficult?", "memory_block": "", "query": "Reasons why learning a second language is difficult"}
+{"dialogue_id": "46", "turn_id": "46_2", "utterance": "At what age is it harder and why?", "memory_block": "", "query": "At what age does learning a second language become more difficult and why?"}
+{"dialogue_id": "46", "turn_id": "46_3", "utterance": "If I already know English, which language would be the easiest to learn?", "memory_block": "", "query": "Which language is the easiest to learn for someone who already knows English?"}
+{"dialogue_id": "46", "turn_id": "46_4", "utterance": "How can I begin learning Norwegian?", "memory_block": "", "query": "How can I start learning Norwegian?"}
+{"dialogue_id": "46", "turn_id": "46_5", "utterance": "Is it easier to learn than Spanish?", "memory_block": "- Interested in learning Norwegian", "query": "Is learning Norwegian easier than learning Spanish?"}
+{"dialogue_id": "46", "turn_id": "46_6", "utterance": "What other languages are closest to it?", "memory_block": "- Interested in learning Norwegian", "query": "What languages are closest to Norwegian?"}
+{"dialogue_id": "46", "turn_id": "46_7", "utterance": "Describe some of its similarities with Danish.", "memory_block": "- Interested in learning Norwegian", "query": "What are the similarities between Norwegian and Danish?"}
+{"dialogue_id": "46", "turn_id": "46_8", "utterance": "How did all these languages evolve?", "memory_block": "- Interested in learning Norwegian", "query": "How did the Norwegian, Spanish, and Danish languages evolve?"}
+{"dialogue_id": "46", "turn_id": "46_9", "utterance": "How is it related to Old Norse?", "memory_block": "- Interested in learning Norwegian", "query": "How is the Norwegian language related to Old Norse?"}
+{"dialogue_id": "46", "turn_id": "46_10", "utterance": "Are there advantages of knowing multiple languages?", "memory_block": "- Interested in learning Norwegian", "query": "What are the advantages of knowing multiple languages?"}
+{"dialogue_id": "47", "turn_id": "47_1", "utterance": "Why is Boise called the city of trees?", "memory_block": "", "query": "Why is Boise referred to as the City of Trees?"}
+{"dialogue_id": "47", "turn_id": "47_2", "utterance": "How did it get its name?", "memory_block": "", "query": "Why is Boise called the city of trees?"}
+{"dialogue_id": "47", "turn_id": "47_3", "utterance": "What is there to do in the summer?", "memory_block": "", "query": "What activities are available in Boise during the summer?"}
+{"dialogue_id": "47", "turn_id": "47_4", "utterance": "What are popular hiking trails?", "memory_block": "", "query": "What are popular hiking trails in Boise?"}
+{"dialogue_id": "47", "turn_id": "47_5", "utterance": "Tell me about the Oregon Trail Reserve.", "memory_block": "- Interested in popular hiking trails", "query": "Oregon Trail Reserve information"}
+{"dialogue_id": "47", "turn_id": "47_6", "utterance": "Tell me about the history of the Boise Greenbelt.", "memory_block": "- Interested in popular hiking trails", "query": "What is the history of the Boise Greenbelt?"}
+{"dialogue_id": "47", "turn_id": "47_7", "utterance": "What is the controversy around it?", "memory_block": "- Interested in popular hiking trails", "query": "What is the controversy surrounding the Oregon Trail Reserve?"}
+{"dialogue_id": "48", "turn_id": "48_1", "utterance": "What is the main function of a virtual machine?", "memory_block": "", "query": "What is the main function of a virtual machine?"}
+{"dialogue_id": "48", "turn_id": "48_2", "utterance": "What are its advantages?", "memory_block": "", "query": "What are the advantages of using a virtual machine?"}
+{"dialogue_id": "48", "turn_id": "48_3", "utterance": "Describe some of its disadvantages.", "memory_block": "", "query": "What are the disadvantages of a virtual machine?"}
+{"dialogue_id": "48", "turn_id": "48_4", "utterance": "How do they work?", "memory_block": "", "query": "How do virtual machines work?"}
+{"dialogue_id": "48", "turn_id": "48_5", "utterance": "What are the main types of VMs?", "memory_block": "", "query": "What are the main types of virtual machines?"}
+{"dialogue_id": "48", "turn_id": "48_6", "utterance": "What is their role in cloud computing?", "memory_block": "", "query": "What is the role of virtual machines in cloud computing?"}
+{"dialogue_id": "48", "turn_id": "48_7", "utterance": "How is a container different?", "memory_block": "", "query": "What are the differences between a virtual machine and a container?"}
+{"dialogue_id": "48", "turn_id": "48_8", "utterance": "What is the advantage of Docker?", "memory_block": "", "query": "What is the advantage of using Docker?"}
+{"dialogue_id": "48", "turn_id": "48_9", "utterance": "How is it related Kurbenetes?", "memory_block": "", "query": "How is Kubernetes related to virtual machines?"}
+{"dialogue_id": "49", "turn_id": "49_1", "utterance": "How was Netflix started?", "memory_block": "", "query": "How did Netflix start?"}
+{"dialogue_id": "49", "turn_id": "49_2", "utterance": "How did it originally work?", "memory_block": "", "query": "How did Netflix originally operate?"}
+{"dialogue_id": "49", "turn_id": "49_3", "utterance": "What is its relationship with Blockbuster?", "memory_block": "", "query": "What is the relationship between Netflix and Blockbuster?"}
+{"dialogue_id": "49", "turn_id": "49_4", "utterance": "When did Netflix shift from DVDs to a streaming service?", "memory_block": "", "query": "When did Netflix transition from DVD rentals to a streaming service?"}
+{"dialogue_id": "49", "turn_id": "49_5", "utterance": "What are its other competitors?", "memory_block": "", "query": "What are the competitors of Netflix?"}
+{"dialogue_id": "49", "turn_id": "49_6", "utterance": "How does it compare to Amazon Prime Video?", "memory_block": "", "query": "How does Netflix compare to Amazon Prime Video?"}
+{"dialogue_id": "49", "turn_id": "49_7", "utterance": "Describe it’s subscriber growth over time.", "memory_block": "", "query": "Describe Netflix's subscriber growth over time."}
+{"dialogue_id": "49", "turn_id": "49_8", "utterance": "How has it changed the way TV is watched?", "memory_block": "", "query": "How has Netflix changed the way television is watched?"}
+{"dialogue_id": "49", "turn_id": "49_9", "utterance": "How has it impacted society?", "memory_block": "", "query": "How has Netflix impacted society?"}
+{"dialogue_id": "49", "turn_id": "49_10", "utterance": "How about dating and relationships?", "memory_block": "", "query": "How has Netflix impacted dating and relationships?"}
+{"dialogue_id": "50", "turn_id": "50_1", "utterance": "What was the first artificial satellite?", "memory_block": "", "query": "What was the name of the first artificial satellite?"}
+{"dialogue_id": "50", "turn_id": "50_2", "utterance": "What are the types of orbits?", "memory_block": "", "query": "What are the types of orbits for satellites?"}
+{"dialogue_id": "50", "turn_id": "50_3", "utterance": "What are the important classes of satellite?", "memory_block": "", "query": "What are the important classes of satellites?"}
+{"dialogue_id": "50", "turn_id": "50_4", "utterance": "How do navigation systems work?", "memory_block": "", "query": "How do satellite navigation systems work?"}
+{"dialogue_id": "50", "turn_id": "50_5", "utterance": "What is the Galileo system and why is it important?", "memory_block": "", "query": "What is the Galileo navigation system and why is it important?"}
+{"dialogue_id": "50", "turn_id": "50_6", "utterance": "Why did it create tension with the US?", "memory_block": "", "query": "Why did the Galileo system create tension with the US?"}
+{"dialogue_id": "50", "turn_id": "50_7", "utterance": "What are Cubesats?", "memory_block": "", "query": "What are Cubesats?"}
+{"dialogue_id": "50", "turn_id": "50_8", "utterance": "What are their advantages?", "memory_block": "", "query": "What are the advantages of Cubesats?"}
+{"dialogue_id": "50", "turn_id": "50_9", "utterance": "What are they used for?", "memory_block": "", "query": "What are Cubesats used for?"}
+{"dialogue_id": "50", "turn_id": "50_10", "utterance": "What is their future?", "memory_block": "", "query": "What is the future of Cubesats?"}
+{"dialogue_id": "51", "turn_id": "51_1", "utterance": "How do I save for a child’s college education in the US?", "memory_block": "", "query": "How to save for a child's college education in the United States?"}
+{"dialogue_id": "51", "turn_id": "51_2", "utterance": "What is a 529 plan?", "memory_block": "", "query": "What is a 529 plan for saving for a child's college education in the US?"}
+{"dialogue_id": "51", "turn_id": "51_3", "utterance": "How does it work?", "memory_block": "", "query": "How does a 529 plan work?"}
+{"dialogue_id": "51", "turn_id": "51_4", "utterance": "What are the main advantages?", "memory_block": "", "query": "What are the main advantages of a 529 plan for saving for a child's college education in the US?"}
+{"dialogue_id": "51", "turn_id": "51_5", "utterance": "What about disadvantages?", "memory_block": "", "query": "What are the disadvantages of a 529 plan for saving for a child's college education in the US?"}
+{"dialogue_id": "51", "turn_id": "51_6", "utterance": "How long have they been around?", "memory_block": "", "query": "How long have 529 plans been around?"}
+{"dialogue_id": "51", "turn_id": "51_7", "utterance": "What are the types of plans?", "memory_block": "", "query": "What are the types of 529 plans?"}
+{"dialogue_id": "51", "turn_id": "51_8", "utterance": "What can the funds be used for?", "memory_block": "", "query": "What can 529 plan funds be used for?"}
+{"dialogue_id": "51", "turn_id": "51_9", "utterance": "What happens if it’s not used?", "memory_block": "", "query": "What happens to a 529 plan if the funds are not used?"}
+{"dialogue_id": "51", "turn_id": "51_10", "utterance": "How does a ESA compare?", "memory_block": "", "query": "How does an Education Savings Account (ESA) compare to a 529 plan?"}
+{"dialogue_id": "52", "turn_id": "52_1", "utterance": "Describe the Afra tanker scale.", "memory_block": "", "query": "What is the Afra tanker scale?"}
+{"dialogue_id": "52", "turn_id": "52_2", "utterance": "Why was it developed?", "memory_block": "", "query": "Reasons for the development of the Afra tanker scale."}
+{"dialogue_id": "52", "turn_id": "52_3", "utterance": "What are supertankers?", "memory_block": "", "query": "What are supertankers and how do they relate to the Afra tanker scale?"}
+{"dialogue_id": "52", "turn_id": "52_4", "utterance": "Describe their invention.", "memory_block": "", "query": "Describe the invention of supertankers."}
+{"dialogue_id": "52", "turn_id": "52_5", "utterance": "What are the important factors led to their development?", "memory_block": "", "query": "What important factors led to the development of supertankers?"}
+{"dialogue_id": "52", "turn_id": "52_6", "utterance": "What was the role of the Six-Day War?", "memory_block": "", "query": "What was the role of the Six-Day War in the development of supertankers?"}
+{"dialogue_id": "52", "turn_id": "52_7", "utterance": "How many barrels can a VLCC ship carry?", "memory_block": "", "query": "How many barrels can a Very Large Crude Carrier (VLCC) ship carry?"}
+{"dialogue_id": "52", "turn_id": "52_8", "utterance": "What is the largest in the world?", "memory_block": "", "query": "What is the largest supertanker in the world?"}
+{"dialogue_id": "52", "turn_id": "52_9", "utterance": "What new problem did increased scale create?", "memory_block": "", "query": "What new problems were created by the increased scale of supertankers?"}
+{"dialogue_id": "52", "turn_id": "52_10", "utterance": "Describe crude oil washing.", "memory_block": "", "query": "Describe crude oil washing in the context of tanker operations."}
+{"dialogue_id": "53", "turn_id": "53_1", "utterance": "Is Red Bull bad for you?", "memory_block": "", "query": "Is Red Bull harmful to health?"}
+{"dialogue_id": "53", "turn_id": "53_2", "utterance": "Can it kill you?", "memory_block": "", "query": "Can Red Bull kill you?"}
+{"dialogue_id": "53", "turn_id": "53_3", "utterance": "How much can you drink in a day?", "memory_block": "", "query": "How much Red Bull can you safely drink in a day?"}
+{"dialogue_id": "53", "turn_id": "53_4", "utterance": "What is taurine?", "memory_block": "", "query": "What is taurine and what are its effects on health?"}
+{"dialogue_id": "53", "turn_id": "53_5", "utterance": "What are its health effects?", "memory_block": "", "query": "What are the health effects of Red Bull?"}
+{"dialogue_id": "53", "turn_id": "53_6", "utterance": "In general, what are the effects of consuming energy drinks?", "memory_block": "", "query": "What are the health effects of consuming energy drinks?"}
+{"dialogue_id": "53", "turn_id": "53_7", "utterance": "Why are they harmful when mixed with alcohol?", "memory_block": "", "query": "Why are energy drinks harmful when mixed with alcohol?"}
+{"dialogue_id": "53", "turn_id": "53_8", "utterance": "What is the argument for their age restriction to kids?", "memory_block": "", "query": "What is the argument for restricting energy drinks to children?"}
+{"dialogue_id": "53", "turn_id": "53_9", "utterance": "Where are they banned to minors?", "memory_block": "", "query": "Where are energy drinks banned for minors?"}
+{"dialogue_id": "54", "turn_id": "54_1", "utterance": "What is worth seeing in Washington D.C.?", "memory_block": "", "query": "Attractions to see in Washington D.C."}
+{"dialogue_id": "54", "turn_id": "54_2", "utterance": "Which Smithsonian museums are the most popular?", "memory_block": "- Interested in worth seeing places in Washington D.C.", "query": "Most popular Smithsonian museums in Washington D.C."}
+{"dialogue_id": "54", "turn_id": "54_3", "utterance": "Why is the National Air and Space Museum important?", "memory_block": "- Interested in worth seeing places in Washington D.C.", "query": "Importance of the National Air and Space Museum in Washington D.C."}
+{"dialogue_id": "54", "turn_id": "54_4", "utterance": "Is the Spy Museum free?", "memory_block": "- Interested in worth seeing places in Washington D.C.", "query": "Is the Spy Museum free to visit in Washington D.C.?"}
+{"dialogue_id": "54", "turn_id": "54_5", "utterance": "What is there to do in DC after the museums close?", "memory_block": "- Interested in worth seeing places in Washington D.C.", "query": "What activities are available in Washington D.C. after museum hours?"}
+{"dialogue_id": "54", "turn_id": "54_6", "utterance": "What is the best time to visit the reflecting pools?", "memory_block": "- Looking for activities to do in DC after the museums close\n- Interested in worth seeing places in Washington D.C.", "query": "What is the best time to visit the reflecting pools in Washington D.C.?"}
+{"dialogue_id": "54", "turn_id": "54_7", "utterance": "Are there any famous foods?", "memory_block": "- Looking for activities to do in DC after the museums close\n- Interested in worth seeing places in Washington D.C.\n- User is interested in the best time to visit the reflecting pools", "query": "What are some famous foods to try in Washington D.C.?"}
+{"dialogue_id": "54", "turn_id": "54_8", "utterance": "What is a DC half smoke?", "memory_block": "- Looking for activities to do in DC after the museums close\n- Interested in worth seeing places in Washington D.C.\n- User is interested in the best time to visit the reflecting pools", "query": "What is a DC half smoke?"}
+{"dialogue_id": "54", "turn_id": "54_9", "utterance": "Tell me about its history.", "memory_block": "- Interested in worth seeing places in Washington D.C.\n- User is interested in the best time to visit the reflecting pools\n- Looking for activities to do in DC after the museums close", "query": "What is the history of the DC half smoke?"}
+{"dialogue_id": "55", "turn_id": "55_1", "utterance": "Describe the oceanic crust.", "memory_block": "", "query": "What is the oceanic crust?"}
+{"dialogue_id": "55", "turn_id": "55_2", "utterance": "What are the main layers?", "memory_block": "", "query": "What are the main layers of the oceanic crust?"}
+{"dialogue_id": "55", "turn_id": "55_3", "utterance": "How does it differ from the continental crust?", "memory_block": "", "query": "How does the oceanic crust differ from the continental crust?"}
+{"dialogue_id": "55", "turn_id": "55_4", "utterance": "Which is younger and why?", "memory_block": "", "query": "Which crust is younger, oceanic or continental, and what is the reason for this?"}
+{"dialogue_id": "55", "turn_id": "55_5", "utterance": "Where is the youngest oceanic found?", "memory_block": "", "query": "Where is the youngest oceanic crust located?"}
+{"dialogue_id": "55", "turn_id": "55_6", "utterance": "What about the oldest?", "memory_block": "", "query": "What is the age of the oldest oceanic crust?"}
+{"dialogue_id": "55", "turn_id": "55_7", "utterance": "What is seafloor spreading?", "memory_block": "", "query": "What is seafloor spreading?"}
+{"dialogue_id": "55", "turn_id": "55_8", "utterance": "What is its significance?", "memory_block": "", "query": "What is the significance of oceanic crust?"}
+{"dialogue_id": "55", "turn_id": "55_9", "utterance": "How is ocean crust formed?", "memory_block": "", "query": "How is oceanic crust formed?"}
+{"dialogue_id": "55", "turn_id": "55_10", "utterance": "Is it being recycled?", "memory_block": "", "query": "Is oceanic crust being recycled?"}
+{"dialogue_id": "56", "turn_id": "56_1", "utterance": "What is Darwin’s theory in a nutshell?", "memory_block": "", "query": "What is the essence of Darwin's theory of evolution?"}
+{"dialogue_id": "56", "turn_id": "56_2", "utterance": "How was it developed?", "memory_block": "", "query": "How was Darwin's theory developed?"}
+{"dialogue_id": "56", "turn_id": "56_3", "utterance": "How do sexual and asexual reproduction affect it?", "memory_block": "", "query": "How do sexual and asexual reproduction affect Darwin's theory of evolution?"}
+{"dialogue_id": "56", "turn_id": "56_4", "utterance": "How can fossils be used to understand it?", "memory_block": "", "query": "How can fossils be used to understand Darwin's theory of evolution?"}
+{"dialogue_id": "56", "turn_id": "56_5", "utterance": "What is modern evidence for it?", "memory_block": "", "query": "What is modern evidence for Darwin's theory of evolution?"}
+{"dialogue_id": "56", "turn_id": "56_6", "utterance": "What is the impact on modern biology?", "memory_block": "", "query": "What is the impact of Darwin's theory of evolution on modern biology?"}
+{"dialogue_id": "56", "turn_id": "56_7", "utterance": "Compare and contrast microevolution and macroevolution.", "memory_block": "", "query": "Compare and contrast microevolution and macroevolution in the context of Darwin's theory of evolution."}
+{"dialogue_id": "56", "turn_id": "56_8", "utterance": "What is the relationship to speciation?", "memory_block": "", "query": "What is the relationship between Darwin's theory and speciation?"}
+{"dialogue_id": "57", "turn_id": "57_1", "utterance": "How can you tell if someone is suffering from depression?", "memory_block": "", "query": "How can you identify the signs of depression in a person?"}
+{"dialogue_id": "57", "turn_id": "57_2", "utterance": "What are common types?", "memory_block": "", "query": "What are common types of depression?"}
+{"dialogue_id": "57", "turn_id": "57_3", "utterance": "What causes it?", "memory_block": "", "query": "What are the causes of depression?"}
+{"dialogue_id": "57", "turn_id": "57_4", "utterance": "What is the role of brain chemicals?", "memory_block": "", "query": "What is the role of brain chemicals in depression?"}
+{"dialogue_id": "57", "turn_id": "57_5", "utterance": "Does a lack of sunlight cause it?", "memory_block": "", "query": "Does a lack of sunlight cause depression?"}
+{"dialogue_id": "57", "turn_id": "57_6", "utterance": "How can you treat SAD?", "memory_block": "", "query": "How can you treat Seasonal Affective Disorder (SAD)?"}
+{"dialogue_id": "57", "turn_id": "57_7", "utterance": "What is the role of melatonin?", "memory_block": "", "query": "What is the role of melatonin in depression?"}
+{"dialogue_id": "57", "turn_id": "57_8", "utterance": "How are anxiety and depression related?", "memory_block": "", "query": "How are anxiety and depression related?"}
+{"dialogue_id": "57", "turn_id": "57_9", "utterance": "What treatments exist for depression?", "memory_block": "", "query": "What treatments exist for depression?"}
+{"dialogue_id": "57", "turn_id": "57_10", "utterance": "What is CBT and how does it work?", "memory_block": "", "query": "What is cognitive behavioral therapy (CBT) and how does it work?"}
+{"dialogue_id": "58", "turn_id": "58_1", "utterance": "What is a real-time database?", "memory_block": "", "query": "What is a real-time database and how does it work?"}
+{"dialogue_id": "58", "turn_id": "58_2", "utterance": "How does it differ from traditional ones?", "memory_block": "", "query": "What are the differences between real-time databases and traditional databases?"}
+{"dialogue_id": "58", "turn_id": "58_3", "utterance": "What are the advantages of real-time processing?", "memory_block": "", "query": "What are the advantages of real-time databases?"}
+{"dialogue_id": "58", "turn_id": "58_4", "utterance": "What are examples of important ones?", "memory_block": "", "query": "What are examples of important real-time databases?"}
+{"dialogue_id": "58", "turn_id": "58_5", "utterance": "What are important applications?", "memory_block": "", "query": "What are important applications of real-time databases?"}
+{"dialogue_id": "58", "turn_id": "58_6", "utterance": "What are important cloud options?", "memory_block": "", "query": "What are important cloud options for real-time databases?"}
+{"dialogue_id": "58", "turn_id": "58_7", "utterance": "Tell me about the Firebase DB.", "memory_block": "", "query": "What is Firebase Database?"}
+{"dialogue_id": "58", "turn_id": "58_8", "utterance": "How is it used in mobile apps?", "memory_block": "", "query": "How is Firebase DB used in mobile apps?"}
+{"dialogue_id": "59", "turn_id": "59_1", "utterance": "Which weekend sports have the most injuries?", "memory_block": "", "query": "Which sports have the highest injury rates on weekends?"}
+{"dialogue_id": "59", "turn_id": "59_2", "utterance": "What are the most common types of injuries?", "memory_block": "", "query": "What are the most common types of sports injuries?"}
+{"dialogue_id": "59", "turn_id": "59_3", "utterance": "What is the ACL?", "memory_block": "", "query": "What is an ACL injury?"}
+{"dialogue_id": "59", "turn_id": "59_4", "utterance": "What is an injury for it?", "memory_block": "", "query": "What is an injury related to the ACL?"}
+{"dialogue_id": "59", "turn_id": "59_5", "utterance": "Tell me about the RICE method.", "memory_block": "", "query": "What is the RICE method for treating injuries?"}
+{"dialogue_id": "59", "turn_id": "59_6", "utterance": "Is there disagreement about it?", "memory_block": "", "query": "Is there disagreement about the RICE method for treating injuries?"}
+{"dialogue_id": "59", "turn_id": "59_7", "utterance": "What is arnica used for?", "memory_block": "", "query": "What is arnica used for in treating injuries?"}
+{"dialogue_id": "59", "turn_id": "59_8", "utterance": "What are some ways to avoid injury?", "memory_block": "", "query": "What are some ways to avoid sports injuries?"}
+{"dialogue_id": "60", "turn_id": "60_1", "utterance": "Tell me about the benefits of yoga.", "memory_block": "", "query": "Benefits of yoga"}
+{"dialogue_id": "60", "turn_id": "60_2", "utterance": "Does it help in reducing stress?", "memory_block": "", "query": "Does yoga help in reducing stress?"}
+{"dialogue_id": "60", "turn_id": "60_3", "utterance": "What are some of the main types?", "memory_block": "", "query": "What are the main types of yoga?"}
+{"dialogue_id": "60", "turn_id": "60_4", "utterance": "What type is best for losing weight?", "memory_block": "", "query": "What type of yoga is best for losing weight?"}
+{"dialogue_id": "60", "turn_id": "60_5", "utterance": "What are common poses in Bikram yoga?", "memory_block": "", "query": "What are common poses in Bikram yoga?"}
+{"dialogue_id": "60", "turn_id": "60_6", "utterance": "Why is mindful breathing important?", "memory_block": "", "query": "Importance of mindful breathing in yoga"}
+{"dialogue_id": "60", "turn_id": "60_7", "utterance": "Does it help relieve asthma?", "memory_block": "", "query": "Does yoga help relieve asthma?"}
+{"dialogue_id": "61", "turn_id": "61_1", "utterance": "Who are The Avengers?", "memory_block": "", "query": "Who are The Avengers in the Marvel Universe?"}
+{"dialogue_id": "61", "turn_id": "61_2", "utterance": "Tell me about their first appearance.", "memory_block": "", "query": "What was the first appearance of The Avengers?"}
+{"dialogue_id": "61", "turn_id": "61_3", "utterance": "Who is the most powerful and why?", "memory_block": "", "query": "Who is the most powerful member of The Avengers and why?"}
+{"dialogue_id": "61", "turn_id": "61_4", "utterance": "What is the relationship of Spider-Man to the team?", "memory_block": "", "query": "What is Spider-Man's relationship to The Avengers?"}
+{"dialogue_id": "61", "turn_id": "61_5", "utterance": "Why is Batman not a member?", "memory_block": "", "query": "Why is Batman not a member of The Avengers?"}
+{"dialogue_id": "61", "turn_id": "61_6", "utterance": "What is an important team in the DC universe?", "memory_block": "", "query": "What is an important team in the DC universe?"}
+{"dialogue_id": "61", "turn_id": "61_7", "utterance": "Tell me about the origins of the Justice League.", "memory_block": "", "query": "What are the origins of the Justice League?"}
+{"dialogue_id": "61", "turn_id": "61_8", "utterance": "Who are the important members?", "memory_block": "", "query": "Who are the important members of the Justice League?"}
+{"dialogue_id": "61", "turn_id": "61_9", "utterance": "Which team came first?", "memory_block": "", "query": "Which superhero team was established first, The Avengers or the Justice League?"}
+{"dialogue_id": "62", "turn_id": "62_1", "utterance": "What is the Surrealism movement in art?", "memory_block": "", "query": "What is the Surrealism movement in art?"}
+{"dialogue_id": "62", "turn_id": "62_2", "utterance": "What are its characteristics?", "memory_block": "", "query": "What are the characteristics of the Surrealism movement in art?"}
+{"dialogue_id": "62", "turn_id": "62_3", "utterance": "Tell me about its founding.", "memory_block": "", "query": "What is the founding of the Surrealism movement in art?"}
+{"dialogue_id": "62", "turn_id": "62_4", "utterance": "Tell me about the series of manifestos.", "memory_block": "", "query": "What are the series of manifestos related to the Surrealism movement in art?"}
+{"dialogue_id": "62", "turn_id": "62_5", "utterance": "How is it different from Dada?", "memory_block": "", "query": "What are the differences between Surrealism and Dada in art?"}
+{"dialogue_id": "62", "turn_id": "62_6", "utterance": "What is its importance?", "memory_block": "", "query": "What is the importance of the Surrealism movement in art?"}
+{"dialogue_id": "62", "turn_id": "62_7", "utterance": "Who are the most famous artists?", "memory_block": "", "query": "Who are the most famous artists of the Surrealism movement?"}
+{"dialogue_id": "62", "turn_id": "62_8", "utterance": "Why did Dali choose surrealism?", "memory_block": "", "query": "Why did Salvador Dali choose to be a part of the Surrealism movement?"}
+{"dialogue_id": "62", "turn_id": "62_9", "utterance": "What are his most iconic works?", "memory_block": "", "query": "What are Salvador Dali's most iconic works?"}
+{"dialogue_id": "62", "turn_id": "62_10", "utterance": "Is it still used today?", "memory_block": "", "query": "Is Surrealism still used in contemporary art today?"}
+{"dialogue_id": "62", "turn_id": "62_11", "utterance": "What has its impact been on other fields?", "memory_block": "", "query": "What has the impact of the Surrealism movement in art been on other fields?"}
+{"dialogue_id": "63", "turn_id": "63_1", "utterance": "What is blockchain?", "memory_block": "", "query": "What is blockchain technology?"}
+{"dialogue_id": "63", "turn_id": "63_2", "utterance": "What problem does it solve?", "memory_block": "", "query": "What problems does blockchain technology solve?"}
+{"dialogue_id": "63", "turn_id": "63_3", "utterance": "How does it work?", "memory_block": "", "query": "How does blockchain technology work?"}
+{"dialogue_id": "63", "turn_id": "63_4", "utterance": "What are the types of networks?", "memory_block": "", "query": "What are the types of blockchain networks?"}
+{"dialogue_id": "63", "turn_id": "63_5", "utterance": "Tell me about its invention.", "memory_block": "", "query": "What is the history of blockchain's invention?"}
+{"dialogue_id": "63", "turn_id": "63_6", "utterance": "How is it related to cryptocurrencies?", "memory_block": "", "query": "How is blockchain related to cryptocurrencies?"}
+{"dialogue_id": "63", "turn_id": "63_7", "utterance": "How is Bitcoin generated?", "memory_block": "", "query": "How is Bitcoin generated?"}
+{"dialogue_id": "63", "turn_id": "63_8", "utterance": "How secure is blockchain?", "memory_block": "", "query": "How secure is blockchain technology?"}
+{"dialogue_id": "63", "turn_id": "63_9", "utterance": "What are its other uses in business?", "memory_block": "", "query": "What are the other uses of blockchain technology in business?"}
+{"dialogue_id": "63", "turn_id": "63_10", "utterance": "What are the implications for society?", "memory_block": "", "query": "What are the implications of blockchain technology for society?"}
+{"dialogue_id": "64", "turn_id": "64_1", "utterance": "What are the types of pork ribs?", "memory_block": "", "query": "What are the different types of pork ribs?"}
+{"dialogue_id": "64", "turn_id": "64_2", "utterance": "What are baby backs?", "memory_block": "", "query": "What are baby back ribs?"}
+{"dialogue_id": "64", "turn_id": "64_3", "utterance": "What are the differences with spareribs?", "memory_block": "", "query": "What are the differences between baby back ribs and spareribs?"}
+{"dialogue_id": "64", "turn_id": "64_4", "utterance": "What are ways to cook them?", "memory_block": "", "query": "What are ways to cook pork ribs?"}
+{"dialogue_id": "64", "turn_id": "64_5", "utterance": "How about on the bbq?", "memory_block": "", "query": "How to cook pork ribs on the BBQ?"}
+{"dialogue_id": "64", "turn_id": "64_6", "utterance": "Describe the 321 method.", "memory_block": "", "query": "What is the 321 method for cooking pork ribs on the BBQ?"}
+{"dialogue_id": "64", "turn_id": "64_7", "utterance": "How long do they take to smoke?", "memory_block": "", "query": "How long does it take to smoke pork ribs?"}
+{"dialogue_id": "64", "turn_id": "64_8", "utterance": "How do you know when they are done?", "memory_block": "", "query": "How do you know when pork ribs are done cooking?"}
+{"dialogue_id": "64", "turn_id": "64_9", "utterance": "What is in a typical rub?", "memory_block": "", "query": "What are the ingredients in a typical pork rib rub?"}
+{"dialogue_id": "64", "turn_id": "64_10", "utterance": "What’s the best style of sauce for them?", "memory_block": "", "query": "What is the best style of sauce for pork ribs?"}
+{"dialogue_id": "64", "turn_id": "64_11", "utterance": "What’s in Kansas City style sauce?", "memory_block": "", "query": "What’s in Kansas City style barbecue sauce?"}
+{"dialogue_id": "65", "turn_id": "65_1", "utterance": "What is nominal GDP?", "memory_block": "", "query": "What is nominal GDP?"}
+{"dialogue_id": "65", "turn_id": "65_2", "utterance": "Why is it not a good measure?", "memory_block": "", "query": "Why is nominal GDP not a good measure?"}
+{"dialogue_id": "65", "turn_id": "65_3", "utterance": "What is the difference with real?", "memory_block": "", "query": "What is the difference between nominal GDP and real GDP?"}
+{"dialogue_id": "65", "turn_id": "65_4", "utterance": "How is it related to gross national income?", "memory_block": "", "query": "How is nominal GDP related to gross national income?"}
+{"dialogue_id": "65", "turn_id": "65_5", "utterance": "What is the meaning of GNI?", "memory_block": "", "query": "What is the meaning of gross national income (GNI)?"}
+{"dialogue_id": "65", "turn_id": "65_6", "utterance": "How is inflation affected by high GDP growth?", "memory_block": "", "query": "How is inflation affected by high nominal GDP growth?"}
+{"dialogue_id": "65", "turn_id": "65_7", "utterance": "What is the relationship between inflation and unemployment?", "memory_block": "", "query": "What is the relationship between inflation and unemployment?"}
+{"dialogue_id": "65", "turn_id": "65_8", "utterance": "What is frictional unemployment and why is it important?", "memory_block": "", "query": "What is frictional unemployment and why is it important?"}
+{"dialogue_id": "65", "turn_id": "65_9", "utterance": "Is it bad for the economy?", "memory_block": "", "query": "Is frictional unemployment bad for the economy?"}
+{"dialogue_id": "65", "turn_id": "65_10", "utterance": "How can the government reduce its level?", "memory_block": "", "query": "How can the government reduce its level of frictional unemployment?"}
+{"dialogue_id": "66", "turn_id": "66_1", "utterance": "Tell me about lavender plants.", "memory_block": "", "query": "Information about lavender plants."}
+{"dialogue_id": "66", "turn_id": "66_2", "utterance": "What are the different types?", "memory_block": "", "query": "What are the different types of lavender plants?"}
+{"dialogue_id": "66", "turn_id": "66_3", "utterance": "What places are famous for them?", "memory_block": "", "query": "What places are famous for lavender plants?"}
+{"dialogue_id": "66", "turn_id": "66_4", "utterance": "Are they safe to eat?", "memory_block": "", "query": "Are lavender plants safe to eat?"}
+{"dialogue_id": "66", "turn_id": "66_5", "utterance": "What variety is best for cooking?", "memory_block": "", "query": "What variety of lavender is best for cooking?"}
+{"dialogue_id": "66", "turn_id": "66_6", "utterance": "How is it used?", "memory_block": "", "query": "How is lavender used?"}
+{"dialogue_id": "66", "turn_id": "66_7", "utterance": "What is it good with?", "memory_block": "", "query": "What dishes or ingredients pair well with lavender?"}
+{"dialogue_id": "66", "turn_id": "66_8", "utterance": "What are the health benefits of its oil?", "memory_block": "", "query": "What are the health benefits of lavender oil?"}
+{"dialogue_id": "66", "turn_id": "66_9", "utterance": "Are there any side effects?", "memory_block": "", "query": "What are the side effects of lavender oil?"}
+{"dialogue_id": "67", "turn_id": "67_1", "utterance": "Why is blood red?", "memory_block": "", "query": "Why is blood red in color?"}
+{"dialogue_id": "67", "turn_id": "67_2", "utterance": "What are red blood cells?", "memory_block": "", "query": "What are red blood cells and their function in the body?"}
+{"dialogue_id": "67", "turn_id": "67_3", "utterance": "How are they created?", "memory_block": "", "query": "How are red blood cells created?"}
+{"dialogue_id": "67", "turn_id": "67_4", "utterance": "How is oxygen transported?", "memory_block": "", "query": "How is oxygen transported in the blood?"}
+{"dialogue_id": "67", "turn_id": "67_5", "utterance": "What is anemia?", "memory_block": "", "query": "What is anemia?"}
+{"dialogue_id": "67", "turn_id": "67_6", "utterance": "What are the symptoms?", "memory_block": "", "query": "What are the symptoms of anemia?"}
+{"dialogue_id": "67", "turn_id": "67_7", "utterance": "Can it go away?", "memory_block": "", "query": "Can anemia go away?"}
+{"dialogue_id": "67", "turn_id": "67_8", "utterance": "What are its possible causes?", "memory_block": "", "query": "What are the possible causes of anemia?"}
+{"dialogue_id": "67", "turn_id": "67_9", "utterance": "How is it treated?", "memory_block": "", "query": "How is anemia treated?"}
+{"dialogue_id": "67", "turn_id": "67_10", "utterance": "What foods contain high levels of iron?", "memory_block": "", "query": "What foods are high in iron?"}
+{"dialogue_id": "67", "turn_id": "67_11", "utterance": "What improves absorption?", "memory_block": "", "query": "What improves iron absorption?"}
+{"dialogue_id": "68", "turn_id": "68_1", "utterance": "What is cuisine is Emilia-Romagna famous for?", "memory_block": "", "query": "What cuisine is Emilia-Romagna famous for?"}
+{"dialogue_id": "68", "turn_id": "68_2", "utterance": "Tell me about cooking schools and classes.", "memory_block": "", "query": "Cooking schools and classes in Emilia-Romagna."}
+{"dialogue_id": "68", "turn_id": "68_3", "utterance": "What are famous foods from the region?", "memory_block": "- Interested in cooking schools and classes", "query": "What are the famous foods from the Emilia-Romagna region?"}
+{"dialogue_id": "68", "turn_id": "68_4", "utterance": "Describe the traditional process for making balsamic vinegar?", "memory_block": "- Interested in cooking schools and classes", "query": "Describe the traditional process for making balsamic vinegar in Emilia-Romagna."}
+{"dialogue_id": "68", "turn_id": "68_5", "utterance": "What is mortadella and where is it from?", "memory_block": "- Interested in cooking schools and classes", "query": "What is mortadella and its origin?"}
+{"dialogue_id": "68", "turn_id": "68_6", "utterance": "What’s the difference with Bologna?", "memory_block": "- Interested in cooking schools and classes", "query": "What is the difference between Bologna and other cities in Emilia-Romagna?"}
+{"dialogue_id": "68", "turn_id": "68_7", "utterance": "Where was Parmesan cheese created?", "memory_block": "- Interested in cooking schools and classes", "query": "Where was Parmesan cheese created?"}
+{"dialogue_id": "68", "turn_id": "68_8", "utterance": "What is done with the whey after production?", "memory_block": "- Interested in cooking schools and classes", "query": "What is done with the whey after cheese production?"}
+{"dialogue_id": "68", "turn_id": "68_9", "utterance": "What are typical pasta dishes?", "memory_block": "- Interested in cooking schools and classes", "query": "What are typical pasta dishes from Emilia-Romagna?"}
+{"dialogue_id": "68", "turn_id": "68_10", "utterance": "What is the history of tagliatelle al ragu bolognese?", "memory_block": "- Interested in cooking schools and classes", "query": "What is the history of tagliatelle al ragù bolognese?"}
+{"dialogue_id": "68", "turn_id": "68_11", "utterance": "What are its common variations?", "memory_block": "- Interested in cooking schools and classes", "query": "What are the common variations of tagliatelle al ragu bolognese?"}
+{"dialogue_id": "69", "turn_id": "69_1", "utterance": "How do you sleep after jet lag?", "memory_block": "", "query": "How to sleep better after experiencing jet lag?"}
+{"dialogue_id": "69", "turn_id": "69_2", "utterance": "Does melatonin help?", "memory_block": "", "query": "Does melatonin help with jet lag?"}
+{"dialogue_id": "69", "turn_id": "69_3", "utterance": "How was it discovered?", "memory_block": "", "query": "How was melatonin discovered?"}
+{"dialogue_id": "69", "turn_id": "69_4", "utterance": "What are good sources in food?", "memory_block": "", "query": "What are good food sources of melatonin?"}
+{"dialogue_id": "69", "turn_id": "69_5", "utterance": "Is melatonin bad for you?", "memory_block": "", "query": "Is melatonin harmful to health?"}
+{"dialogue_id": "69", "turn_id": "69_6", "utterance": "What are the side effects?", "memory_block": "", "query": "What are the side effects of melatonin?"}
+{"dialogue_id": "69", "turn_id": "69_7", "utterance": "Why does it require a prescription in the UK?", "memory_block": "", "query": "Why does melatonin require a prescription in the UK?"}
+{"dialogue_id": "69", "turn_id": "69_8", "utterance": "How can I increase my levels naturally?", "memory_block": "", "query": "How can I increase melatonin levels naturally?"}
+{"dialogue_id": "69", "turn_id": "69_9", "utterance": "Is it effective for treating insomnia?", "memory_block": "- Looking for ways to increase levels naturally", "query": "Is melatonin effective for treating insomnia?"}
+{"dialogue_id": "69", "turn_id": "69_10", "utterance": "How about for anxiety?", "memory_block": "- Looking for ways to increase levels naturally", "query": "Is melatonin effective for treating anxiety?"}
+{"dialogue_id": "70", "turn_id": "70_1", "utterance": "What is solar energy?", "memory_block": "", "query": "What is solar energy and how does it work?"}
+{"dialogue_id": "70", "turn_id": "70_2", "utterance": "What are its main uses?", "memory_block": "", "query": "What are the main uses of solar energy?"}
+{"dialogue_id": "70", "turn_id": "70_3", "utterance": "Why is it important?", "memory_block": "", "query": "Importance of solar energy"}
+{"dialogue_id": "70", "turn_id": "70_4", "utterance": "What are advantages of solar energy?", "memory_block": "", "query": "What are the advantages of solar energy?"}
+{"dialogue_id": "70", "turn_id": "70_5", "utterance": "What is the cost of solar power?", "memory_block": "", "query": "What is the cost of solar power?"}
+{"dialogue_id": "70", "turn_id": "70_6", "utterance": "How is being used in rural Africa?", "memory_block": "", "query": "How is solar energy being used in rural Africa?"}
+{"dialogue_id": "70", "turn_id": "70_7", "utterance": "Tell me more about solar cookers work.", "memory_block": "", "query": "How do solar cookers work?"}
+{"dialogue_id": "70", "turn_id": "70_8", "utterance": "How is solar used in architecture?", "memory_block": "", "query": "How is solar energy used in architecture?"}
+{"dialogue_id": "70", "turn_id": "70_9", "utterance": "What are important projects?", "memory_block": "", "query": "What are important solar energy projects?"}
+{"dialogue_id": "70", "turn_id": "70_10", "utterance": "Can it be used to power cars?", "memory_block": "", "query": "Can solar energy be used to power cars?"}
+{"dialogue_id": "71", "turn_id": "71_1", "utterance": "What are mammals?", "memory_block": "", "query": "What are the characteristics of mammals?"}
+{"dialogue_id": "71", "turn_id": "71_2", "utterance": "What are their key characteristics?", "memory_block": "", "query": "What are the key characteristics of mammals?"}
+{"dialogue_id": "71", "turn_id": "71_3", "utterance": "How many legs do they have?", "memory_block": "", "query": "How many legs do mammals have?"}
+{"dialogue_id": "71", "turn_id": "71_4", "utterance": "What is the largest one on land?", "memory_block": "", "query": "What is the largest land mammal?"}
+{"dialogue_id": "71", "turn_id": "71_5", "utterance": "What is the largest in the world?", "memory_block": "", "query": "What is the largest mammal in the world?"}
+{"dialogue_id": "71", "turn_id": "71_6", "utterance": "What about in the UK?", "memory_block": "", "query": "What is the largest mammal in the UK?"}
+{"dialogue_id": "71", "turn_id": "71_7", "utterance": "What about the largest to ever walk the earth?", "memory_block": "", "query": "What is the largest mammal to ever walk the earth?"}
+{"dialogue_id": "71", "turn_id": "71_8", "utterance": "Tell me about Blue whales.", "memory_block": "", "query": "What are blue whales?"}
+{"dialogue_id": "71", "turn_id": "71_9", "utterance": "How much do they weigh?", "memory_block": "", "query": "What is the weight of blue whales?"}
+{"dialogue_id": "71", "turn_id": "71_10", "utterance": "Where do they live?", "memory_block": "", "query": "Where do blue whales live?"}
+{"dialogue_id": "71", "turn_id": "71_11", "utterance": "What do they eat?", "memory_block": "", "query": "What do blue whales eat?"}
+{"dialogue_id": "71", "turn_id": "71_12", "utterance": "Where can we see them?", "memory_block": "", "query": "Where can Blue whales be seen?"}
+{"dialogue_id": "72", "turn_id": "72_1", "utterance": "What do Spanish people do on Christmas day?", "memory_block": "", "query": "What are the Christmas day traditions of Spanish people?"}
+{"dialogue_id": "72", "turn_id": "72_2", "utterance": "What do they eat for dinner?", "memory_block": "", "query": "What do Spanish people eat for dinner on Christmas day?"}
+{"dialogue_id": "72", "turn_id": "72_3", "utterance": "How about on Christmas eve?", "memory_block": "", "query": "What do Spanish people do on Christmas Eve?"}
+{"dialogue_id": "72", "turn_id": "72_4", "utterance": "What is the Christmas Lottery?", "memory_block": "- Mentioned Christmas eve", "query": "What is the Christmas Lottery in Spain?"}
+{"dialogue_id": "72", "turn_id": "72_5", "utterance": "How does the drawing work?", "memory_block": "- Mentioned Christmas eve", "query": "How does the Christmas Lottery drawing work?"}
+{"dialogue_id": "72", "turn_id": "72_6", "utterance": "How are the tickets sold?", "memory_block": "- Mentioned Christmas eve", "query": "How are Christmas Lottery tickets sold in Spain?"}
+{"dialogue_id": "72", "turn_id": "72_7", "utterance": "What is Tió de Nadal?", "memory_block": "- Mentioned Christmas eve", "query": "What is Tió de Nadal in the context of Spanish Christmas traditions?"}
+{"dialogue_id": "72", "turn_id": "72_8", "utterance": "How did this tradition start?", "memory_block": "- Mentioned Christmas eve", "query": "How did the tradition of Tió de Nadal start?"}
+{"dialogue_id": "72", "turn_id": "72_9", "utterance": "How do they celebrate Three Kings Day?", "memory_block": "- Mentioned Christmas eve", "query": "How do Spanish people celebrate Three Kings Day?"}
+{"dialogue_id": "72", "turn_id": "72_10", "utterance": "What cakes are traditional?", "memory_block": "- Mentioned Christmas eve", "query": "What traditional cakes are served in Spain during Christmas celebrations?"}
+{"dialogue_id": "73", "turn_id": "73_1", "utterance": "Who is the most successful pirate of all time?", "memory_block": "", "query": "Who is the most successful pirate in history?"}
+{"dialogue_id": "73", "turn_id": "73_2", "utterance": "Who is the most famous female?", "memory_block": "", "query": "Who is the most famous female pirate?"}
+{"dialogue_id": "73", "turn_id": "73_3", "utterance": "Tell me more about Ching Shih.", "memory_block": "", "query": "Information about Ching Shih, the most famous female pirate."}
+{"dialogue_id": "73", "turn_id": "73_4", "utterance": "What were her code of laws?", "memory_block": "", "query": "What were Ching Shih's code of laws?"}
+{"dialogue_id": "73", "turn_id": "73_5", "utterance": "How did she die?", "memory_block": "", "query": "How did Ching Shih die?"}
+{"dialogue_id": "73", "turn_id": "73_6", "utterance": "Who was Anne Bonny?", "memory_block": "", "query": "Who was Anne Bonny, the famous female pirate?"}
+{"dialogue_id": "73", "turn_id": "73_7", "utterance": "What was she famous for?", "memory_block": "", "query": "What was Ching Shih famous for?"}
+{"dialogue_id": "73", "turn_id": "73_8", "utterance": "Who was she married to?", "memory_block": "", "query": "Who was Anne Bonny married to?"}
+{"dialogue_id": "73", "turn_id": "73_9", "utterance": "How did Calico Jack die?", "memory_block": "", "query": "How did Calico Jack Rackham die?"}
+{"dialogue_id": "73", "turn_id": "73_10", "utterance": "What happened to Anne?", "memory_block": "", "query": "What happened to Anne Bonny?"}
+{"dialogue_id": "74", "turn_id": "74_1", "utterance": "What are the pros and cons of electric cars?", "memory_block": "", "query": "What are the advantages and disadvantages of electric cars?"}
+{"dialogue_id": "74", "turn_id": "74_2", "utterance": "Tell me more about Tesla.", "memory_block": "", "query": "What are the features and specifications of Tesla electric cars?"}
+{"dialogue_id": "74", "turn_id": "74_3", "utterance": "Why did Elon Musk start it?", "memory_block": "", "query": "Why did Elon Musk start Tesla?"}
+{"dialogue_id": "74", "turn_id": "74_4", "utterance": "What models are available?", "memory_block": "", "query": "What Tesla models are currently available?"}
+{"dialogue_id": "74", "turn_id": "74_5", "utterance": "What is the best selling?", "memory_block": "", "query": "What is the best selling Tesla model?"}
+{"dialogue_id": "74", "turn_id": "74_6", "utterance": "What is unique about the Model 3?", "memory_block": "", "query": "What is unique about the Tesla Model 3?"}
+{"dialogue_id": "74", "turn_id": "74_7", "utterance": "What are the safety features?", "memory_block": "", "query": "What safety features are available in Tesla vehicles?"}
+{"dialogue_id": "74", "turn_id": "74_8", "utterance": "Why is it building Gigafactories?", "memory_block": "", "query": "Why is Tesla building Gigafactories?"}
+{"dialogue_id": "74", "turn_id": "74_9", "utterance": "What makes the batteries unique?", "memory_block": "", "query": "What makes Tesla's batteries unique?"}
+{"dialogue_id": "74", "turn_id": "74_10", "utterance": "How long can they last?", "memory_block": "", "query": "How long do Tesla electric car batteries last?"}
+{"dialogue_id": "74", "turn_id": "74_11", "utterance": "Tell me more about autopilot.", "memory_block": "", "query": "What are the features and capabilities of Tesla's Autopilot?"}
+{"dialogue_id": "74", "turn_id": "74_12", "utterance": "Does it support full self-driving?", "memory_block": "", "query": "Does Tesla's Autopilot support full self-driving?"}
+{"dialogue_id": "75", "turn_id": "75_1", "utterance": "Why do turkey and Turkey share the same name?", "memory_block": "", "query": "Why do the country Turkey and the bird turkey share the same name?"}
+{"dialogue_id": "75", "turn_id": "75_2", "utterance": "Where are turkeys from?", "memory_block": "", "query": "Where are turkeys originally from?"}
+{"dialogue_id": "75", "turn_id": "75_3", "utterance": "What was their importance in native cultures?", "memory_block": "", "query": "What was the importance of turkeys in native cultures?"}
+{"dialogue_id": "75", "turn_id": "75_4", "utterance": "When and how were they domesticated?", "memory_block": "", "query": "When and how were turkeys domesticated?"}
+{"dialogue_id": "75", "turn_id": "75_5", "utterance": "Can they fly?", "memory_block": "", "query": "Can turkeys fly?"}
+{"dialogue_id": "75", "turn_id": "75_6", "utterance": "Why did Ben Franklin want it to be the national symbol?", "memory_block": "", "query": "Why did Ben Franklin want the turkey to be the national symbol?"}
+{"dialogue_id": "75", "turn_id": "75_7", "utterance": "How did he cook it?", "memory_block": "", "query": "How did Ben Franklin cook turkey?"}
+{"dialogue_id": "75", "turn_id": "75_8", "utterance": "Why is it eaten on Thanksgiving?", "memory_block": "", "query": "Why is turkey eaten on Thanksgiving?"}
+{"dialogue_id": "75", "turn_id": "75_9", "utterance": "How did it become traditional for Christmas dinner in Britain?", "memory_block": "", "query": "How did turkey become a traditional Christmas dinner in Britain?"}
+{"dialogue_id": "75", "turn_id": "75_10", "utterance": "When did they become popular?", "memory_block": "", "query": "When did turkeys become popular?"}
+{"dialogue_id": "76", "turn_id": "76_1", "utterance": "What are important literary elements?", "memory_block": "", "query": "What are the important literary elements?"}
+{"dialogue_id": "76", "turn_id": "76_2", "utterance": "What is the difference between them and literary devices?", "memory_block": "", "query": "What is the difference between literary elements and literary devices?"}
+{"dialogue_id": "76", "turn_id": "76_3", "utterance": "What is a genre?", "memory_block": "", "query": "What is a genre in literature?"}
+{"dialogue_id": "76", "turn_id": "76_4", "utterance": "What are the most important ones?", "memory_block": "", "query": "What are the most important literary elements?"}
+{"dialogue_id": "76", "turn_id": "76_5", "utterance": "What is a trope?", "memory_block": "", "query": "What is a trope in literature?"}
+{"dialogue_id": "76", "turn_id": "76_6", "utterance": "What are important examples in fantasy?", "memory_block": "", "query": "What are important examples of literary elements in fantasy?"}
+{"dialogue_id": "76", "turn_id": "76_7", "utterance": "What is the definition of allegory?", "memory_block": "", "query": "What is the definition of allegory in literature?"}
+{"dialogue_id": "76", "turn_id": "76_8", "utterance": "What are some important modern uses?", "memory_block": "", "query": "What are some important modern uses of allegory?"}
+{"dialogue_id": "76", "turn_id": "76_9", "utterance": "What are the different types of foreshadowing?", "memory_block": "", "query": "What are the different types of foreshadowing in literature?"}
+{"dialogue_id": "76", "turn_id": "76_10", "utterance": "What is an example?", "memory_block": "", "query": "What is an example of foreshadowing?"}
+{"dialogue_id": "77", "turn_id": "77_1", "utterance": "What's the difference between soup and stew?", "memory_block": "", "query": "What is the difference between soup and stew?"}
+{"dialogue_id": "77", "turn_id": "77_2", "utterance": "Is chilli a stew?", "memory_block": "", "query": "Is chili considered a stew?"}
+{"dialogue_id": "77", "turn_id": "77_3", "utterance": "How about goulash?", "memory_block": "", "query": "Is goulash considered a stew?"}
+{"dialogue_id": "77", "turn_id": "77_4", "utterance": "What are popular ones in France?", "memory_block": "- Interested in goulash", "query": "What are popular goulash recipes in France?"}
+{"dialogue_id": "77", "turn_id": "77_5", "utterance": "How is cassoulet made?", "memory_block": "- Interested in goulash", "query": "How is cassoulet made?"}
+{"dialogue_id": "77", "turn_id": "77_6", "utterance": "Tell me about feijoada and its significance.", "memory_block": "- Interested in goulash", "query": "What is feijoada and what is its significance?"}
+{"dialogue_id": "77", "turn_id": "77_7", "utterance": "How is it similar or different from cassoulet?", "memory_block": "- Interested in goulash", "query": "What are the similarities and differences between goulash and cassoulet?"}
+{"dialogue_id": "77", "turn_id": "77_8", "utterance": "Tell about Bigos stew.", "memory_block": "- Interested in goulash", "query": "What is Bigos stew and its characteristics?"}
+{"dialogue_id": "77", "turn_id": "77_9", "utterance": "Why is it important?", "memory_block": "- Interested in goulash", "query": "What is the significance of Bigos stew?"}
+{"dialogue_id": "77", "turn_id": "77_10", "utterance": "What is the history of Irish stew?", "memory_block": "- Interested in goulash", "query": "What is the history of Irish stew?"}
+{"dialogue_id": "78", "turn_id": "78_1", "utterance": "What is the keto diet?", "memory_block": "", "query": "What is the ketogenic diet?"}
+{"dialogue_id": "78", "turn_id": "78_2", "utterance": "Why was it original developed?", "memory_block": "", "query": "Why was the keto diet originally developed?"}
+{"dialogue_id": "78", "turn_id": "78_3", "utterance": "What is ketosis?", "memory_block": "", "query": "What is ketosis?"}
+{"dialogue_id": "78", "turn_id": "78_4", "utterance": "What is paleo?", "memory_block": "", "query": "What is the paleo diet?"}
+{"dialogue_id": "78", "turn_id": "78_5", "utterance": "What do they have in common?", "memory_block": "", "query": "What do the keto diet and paleo diet have in common?"}
+{"dialogue_id": "78", "turn_id": "78_6", "utterance": "How are they different?", "memory_block": "", "query": "What are the differences between the keto diet and the paleo diet?"}
+{"dialogue_id": "78", "turn_id": "78_7", "utterance": "What is intermittent fasting?", "memory_block": "", "query": "What is intermittent fasting?"}
+{"dialogue_id": "78", "turn_id": "78_8", "utterance": "How is it related to keto?", "memory_block": "", "query": "What is the relationship between the keto diet and intermittent fasting?"}
+{"dialogue_id": "78", "turn_id": "78_9", "utterance": "What is the 16/8 method?", "memory_block": "", "query": "What is the 16/8 method of intermittent fasting?"}
+{"dialogue_id": "78", "turn_id": "78_10", "utterance": "What is the best for weight loss?", "memory_block": "", "query": "What is the best diet for weight loss?"}
+{"dialogue_id": "79", "turn_id": "79_1", "utterance": "What is taught in sociology?", "memory_block": "", "query": "What topics are covered in sociology courses?"}
+{"dialogue_id": "79", "turn_id": "79_2", "utterance": "What is the main contribution of Auguste Comte?", "memory_block": "", "query": "What is the main contribution of Auguste Comte to sociology?"}
+{"dialogue_id": "79", "turn_id": "79_3", "utterance": "What is the role of positivism in it?", "memory_block": "", "query": "What is the role of positivism in sociology?"}
+{"dialogue_id": "79", "turn_id": "79_4", "utterance": "What is Herbert Spencer known for?", "memory_block": "", "query": "What is Herbert Spencer known for in sociology?"}
+{"dialogue_id": "79", "turn_id": "79_5", "utterance": "How is his work related to Comte?", "memory_block": "", "query": "How is Herbert Spencer's work related to Auguste Comte?"}
+{"dialogue_id": "79", "turn_id": "79_6", "utterance": "What is the functionalist theory?", "memory_block": "", "query": "What is the functionalist theory in sociology?"}
+{"dialogue_id": "79", "turn_id": "79_7", "utterance": "What is its main criticism?", "memory_block": "", "query": "What is the main criticism of functionalist theory?"}
+{"dialogue_id": "79", "turn_id": "79_8", "utterance": "How does it compare to conflict theory?", "memory_block": "", "query": "How does functionalist theory compare to conflict theory?"}
+{"dialogue_id": "79", "turn_id": "79_9", "utterance": "What are modern examples of conflict theory?", "memory_block": "", "query": "What are modern examples of conflict theory?"}
+{"dialogue_id": "80", "turn_id": "80_1", "utterance": "What were the purposes of the Lewis and Clark expedition?", "memory_block": "", "query": "What were the purposes of the Lewis and Clark expedition?"}
+{"dialogue_id": "80", "turn_id": "80_2", "utterance": "What were important plants and animals they discovered?", "memory_block": "", "query": "What important plants and animals were discovered during the Lewis and Clark expedition?"}
+{"dialogue_id": "80", "turn_id": "80_3", "utterance": "What were the diplomatic objectives?", "memory_block": "", "query": "What were the diplomatic objectives of the Lewis and Clark expedition?"}
+{"dialogue_id": "80", "turn_id": "80_4", "utterance": "What were the Native American tribes that they encountered?", "memory_block": "", "query": "What Native American tribes did Lewis and Clark encounter during their expedition?"}
+{"dialogue_id": "80", "turn_id": "80_5", "utterance": "How did Sacagawea help them?", "memory_block": "", "query": "How did Sacagawea assist the Lewis and Clark expedition?"}
+{"dialogue_id": "80", "turn_id": "80_6", "utterance": "Did they find the Northwest Passage?", "memory_block": "", "query": "Did Lewis and Clark find the Northwest Passage?"}
+{"dialogue_id": "80", "turn_id": "80_7", "utterance": "What was the purpose of Fort Mandan?", "memory_block": "", "query": "What was the purpose of Fort Mandan during the Lewis and Clark expedition?"}
+{"dialogue_id": "80", "turn_id": "80_8", "utterance": "How did they spend the next winter?", "memory_block": "", "query": "How did the Lewis and Clark expedition spend the winter after their journey?"}
+{"dialogue_id": "80", "turn_id": "80_9", "utterance": "What happened to Fort Clatsop?", "memory_block": "", "query": "What happened to Fort Clatsop?"}
+{"dialogue_id": "80", "turn_id": "80_10", "utterance": "What was the impact of the expedition?", "memory_block": "", "query": "What was the impact of the Lewis and Clark expedition?"}

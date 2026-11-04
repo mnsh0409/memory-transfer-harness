@@ -1,0 +1,17 @@
+\begin{tabular}{l r r r r r r}
+\toprule
+Run & $n$ & nDCG@3 & nDCG@5 & R@1000 & MRR & judged@10 \\
+\midrule
+B0\_none & 173 & 0.293 & 0.295 & 0.414 & 0.474 & 0.468 \\
+B1\_full\_history & 173 & 0.582* & 0.569* & 0.758* & 0.816* & 0.782 \\
+M1\_manual & 173 & 0.632* & 0.611* & 0.822*$\dagger$ & 0.883*$\dagger$ & 0.860 \\
+S1\_mem0 & 173 & 0.303$\dagger$ & 0.299$\dagger$ & 0.416$\dagger$ & 0.486$\dagger$ & 0.475 \\
+S1\_mem0[infer=False] & 173 & 0.569$\wedge$ & 0.555$\wedge$ & 0.740$\wedge$ & 0.816$\wedge$ & 0.768 \\
+S2\_graphiti & 173 & 0.295$\dagger$ & 0.296$\dagger$ & 0.414$\dagger$ & 0.475$\dagger$ & 0.469 \\
+S3\_amem & 173 & 0.587* & 0.575* & 0.753* & 0.819* & 0.786 \\
+S3\_amem[evolution=False] & 173 & 0.569 & 0.557 & 0.747 & 0.801 & 0.775 \\
+S3\_amem[k=10] & 173 & 0.583 & 0.565 & 0.745 & 0.816 & 0.777 \\
+S3\_amem[k=3] & 173 & 0.558 & 0.546 & 0.729 & 0.796 & 0.761 \\
+\bottomrule
+\end{tabular}
+% cast19 / rewrite_only / memory_only

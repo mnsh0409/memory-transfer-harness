@@ -1,0 +1,11 @@
+{
+  "ablation": {},
+  "backend": "openai",
+  "collection": "cast20",
+  "condition": "S4_letta",
+  "context": "memory_only",
+  "injection": "rewrite_only",
+  "memory_k": 5,
+  "model": "PINNED_IN_DOTENV",
+  "rewrite_prompt": "rewrite_v1"
+}

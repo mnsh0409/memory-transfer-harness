@@ -1,0 +1,21 @@
+{
+  "cache_stats": {
+    "corrupt_lines": 0,
+    "entries": 471,
+    "hits": 8,
+    "misses": 471
+  },
+  "config": "{\"ablation\":{},\"backend\":\"openai\",\"collection\":\"cast19\",\"condition\":\"B0_none\",\"context\":\"memory_only\",\"injection\":\"rewrite_only\",\"memory_k\":5,\"model\":\"gpt-4o-mini-2024-07-18\",\"rewrite_prompt\":\"rewrite_v1\"}",
+  "n_dialogues": 50,
+  "n_rewrites": 479,
+  "rewrites_path": "runs\\rewrites\\cast19.B0_none.rewrite_only.55d1e17d281c.jsonl",
+  "run_id": "cast19.B0_none.rewrite_only.55d1e17d281c",
+  "stage": "run_replay",
+  "usage": {
+    "completion_tokens": 4302,
+    "n_calls": 479,
+    "n_uncached_calls": 471,
+    "prompt_tokens": 65323,
+    "total_tokens": 69625
+  }
+}

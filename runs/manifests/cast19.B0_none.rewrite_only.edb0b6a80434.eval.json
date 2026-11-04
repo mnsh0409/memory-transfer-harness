@@ -1,0 +1,33 @@
+{
+  "ablation": {},
+  "collection": "cast19",
+  "condition": "B0_none",
+  "config": "{\"ablation\":{},\"backend\":\"openai\",\"collection\":\"cast19\",\"condition\":\"B0_none\",\"injection\":\"rewrite_only\",\"memory_k\":5,\"model\":\"gpt-4o-mini-2024-07-18\",\"rewrite_prompt\":\"rewrite_v1\"}",
+  "coverage": {
+    "n_qrels_only": 0,
+    "n_qrels_qids": 173,
+    "n_run_only": 306,
+    "n_run_qids": 479,
+    "n_scored": 173
+  },
+  "injection": "rewrite_only",
+  "judged_10": 0.7924855491329481,
+  "memory_k": 5,
+  "metrics_source": "pytrec_eval",
+  "n_scored_turns": 173,
+  "ndcg_cut_3": 0.6091392343666581,
+  "ndcg_cut_5": 0.5951593727562154,
+  "per_turn_path": "runs\\metrics\\cast19.B0_none.rewrite_only.edb0b6a80434.per_turn.jsonl",
+  "recall_1000": 0.781891263888556,
+  "recip_rank": 0.8416464238293216,
+  "run_id": "cast19.B0_none.rewrite_only.edb0b6a80434",
+  "stage": "run_eval",
+  "stats_path": "runs\\stats_summary.json",
+  "usage": {
+    "completion_tokens": 4671,
+    "n_calls": 479,
+    "n_uncached_calls": 479,
+    "prompt_tokens": 84876,
+    "total_tokens": 89547
+  }
+}

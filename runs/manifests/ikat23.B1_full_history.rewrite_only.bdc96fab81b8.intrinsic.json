@@ -1,0 +1,28 @@
+{
+  "ablation": {},
+  "axis": "ptkb_reconstruction",
+  "cache_stats": {
+    "entries": 1431,
+    "hits": 0,
+    "misses": 0
+  },
+  "collection": "ikat23",
+  "condition": "B1_full_history",
+  "config": "{\"ablation\":{},\"backend\":\"openai\",\"collection\":\"ikat23\",\"condition\":\"B1_full_history\",\"injection\":\"rewrite_only\",\"memory_k\":5,\"model\":\"PINNED_IN_DOTENV\",\"rewrite_prompt\":\"rewrite_v1\"}",
+  "csv_path": "runs\\intrinsic\\ikat23.B1_full_history.rewrite_only.bdc96fab81b8.per_dialogue.csv",
+  "judge_source": "lexical(UNVALIDATED -- not for reported numbers)",
+  "manual_check_path": "manual_check\\ikat23.B1_full_history.rewrite_only.bdc96fab81b8.csv",
+  "mean_f1": 0.0024242424242424242,
+  "mean_memory_ndcg_3": 0.0,
+  "mean_precision": 0.0022222222222222222,
+  "mean_recall": 0.041833036244800954,
+  "memory_k": 5,
+  "n_f1": 25,
+  "n_judge_decisions": 594,
+  "n_memory_ndcg_3": 25,
+  "n_precision": 25,
+  "n_recall": 25,
+  "n_units": 25,
+  "run_id": "ikat23.B1_full_history.rewrite_only.bdc96fab81b8",
+  "stage": "run_intrinsic"
+}

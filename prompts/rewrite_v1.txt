@@ -1,0 +1,21 @@
+You reformulate conversational search queries. Using the conversation so far and
+the user knowledge below, rewrite the user's latest utterance as one standalone
+search query that a search engine can answer without seeing the conversation.
+
+Rules:
+- Resolve pronouns and ellipsis from the conversation.
+- Incorporate user knowledge ONLY where it changes what should be retrieved
+  (constraints, preferences, situation). If none applies, ignore it.
+- Never introduce facts absent from both the conversation and the user knowledge.
+- Output the query text only.
+
+User knowledge (may be empty):
+{memory_block}
+
+Conversation:
+{history}
+
+Latest utterance:
+{utterance}
+
+Standalone query:

@@ -1,0 +1,7 @@
+# Enough to reproduce every reported number from the released artifacts and to run the tests.
+# Re-running the experiments themselves needs more: see requirements.lock and the README.
+numpy>=2.2
+scipy>=1.15
+matplotlib>=3.10
+pytest>=8
+pytrec_eval_terrier>=0.5.10

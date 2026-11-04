@@ -1,0 +1,13 @@
+{
+  "ablation": {
+    "evolution": false
+  },
+  "backend": "openai",
+  "collection": "cast20",
+  "condition": "S3_amem",
+  "context": "memory_only",
+  "injection": "rewrite_only",
+  "memory_k": 5,
+  "model": "PINNED_IN_DOTENV",
+  "rewrite_prompt": "rewrite_v1"
+}

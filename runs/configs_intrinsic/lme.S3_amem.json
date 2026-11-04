@@ -1,0 +1,1 @@
+{"condition": "S3_amem", "injection": "rewrite_only", "collection": "longmemeval", "backend": "openai", "model": "PINNED_IN_DOTENV", "memory_k": 5, "ablation": {}, "rewrite_prompt": "rewrite_v1", "context": "history_plus_memory"}

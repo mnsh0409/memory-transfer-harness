@@ -1,0 +1,15 @@
+{
+  "dialogue_id": "smoke-1",
+  "ptkb": [
+    "I am a vegetarian.",
+    "I live in Taipei and commute by metro.",
+    "I am allergic to peanuts."
+  ],
+  "turns": [
+    {"turn_id": "smoke-1_1", "role": "user", "text": "I want to start meal-prepping for my work week. Any advice?"},
+    {"turn_id": "smoke-1_2", "role": "system", "text": "Batch-cook grains and proteins on Sunday, portion into containers, and keep sauces separate."},
+    {"turn_id": "smoke-1_3", "role": "user", "text": "What proteins would work for me?"},
+    {"turn_id": "smoke-1_4", "role": "system", "text": "Tofu, tempeh, lentils and beans store well and reheat without drying out."},
+    {"turn_id": "smoke-1_5", "role": "user", "text": "Which of those are safe given my allergy?"}
+  ]
+}

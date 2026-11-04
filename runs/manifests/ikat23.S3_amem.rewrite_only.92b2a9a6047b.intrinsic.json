@@ -1,0 +1,29 @@
+{
+  "ablation": {},
+  "axis": "ptkb_reconstruction",
+  "cache_stats": {
+    "corrupt_lines": 0,
+    "entries": 1140,
+    "hits": 25,
+    "misses": 1140
+  },
+  "collection": "ikat23",
+  "condition": "S3_amem",
+  "config": "{\"ablation\":{},\"backend\":\"openai\",\"collection\":\"ikat23\",\"condition\":\"S3_amem\",\"context\":\"history_plus_memory\",\"injection\":\"rewrite_only\",\"memory_k\":5,\"model\":\"gpt-4o-mini-2024-07-18\",\"rewrite_prompt\":\"rewrite_v1\"}",
+  "csv_path": "runs\\intrinsic\\ikat23.S3_amem.rewrite_only.92b2a9a6047b.per_dialogue.csv",
+  "judge_source": "judge_v1@gpt-4o-mini-2024-07-18",
+  "manual_check_path": "manual_check\\ikat23.S3_amem.rewrite_only.92b2a9a6047b.csv",
+  "mean_f1": 0.07470718151646018,
+  "mean_memory_ndcg_3": 0.024871162892470555,
+  "mean_precision": 0.13607930957930958,
+  "mean_recall": 0.07142899584076055,
+  "memory_k": 5,
+  "n_f1": 25,
+  "n_judge_decisions": 594,
+  "n_memory_ndcg_3": 25,
+  "n_precision": 25,
+  "n_recall": 25,
+  "n_units": 25,
+  "run_id": "ikat23.S3_amem.rewrite_only.92b2a9a6047b",
+  "stage": "run_intrinsic"
+}

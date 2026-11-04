@@ -1,0 +1,15 @@
+You compare a reference statement about a user with a list of memory entries.
+
+Reference statement:
+{ptkb_statement}
+
+Memory entries:
+{memories}
+
+Question: Is the information in the reference statement contained in the memory
+entries?
+- ENTAILED: some entry (or combination) expresses the same information.
+- PARTIAL: an entry captures part of it but loses a constraint or detail.
+- ABSENT: no entry contains it.
+
+Answer as JSON: {"verdict": "...", "supporting_ids": [...], "note": "<10 words"}

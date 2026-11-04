@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this harness or its released runs, please cite the paper below."
+title: "memory-transfer-harness"
+abstract: >-
+  A replay harness for extrinsic evaluation of agent memory systems: it replays conversational
+  search dialogues through each memory system and scores the document rankings that the
+  system's memory causes a frozen retrieval pipeline to return.
+authors:
+  - family-names: Ng
+    given-names: Siu Hin
+license: MIT
+repository-code: "https://github.com/mnsh0409/memory-transfer-harness"
+keywords:
+  - conversational search
+  - agent memory
+  - extrinsic evaluation
+  - TREC CAsT
+  - information retrieval
+preferred-citation:
+  type: conference-paper
+  title: "Does Memory Transfer to Ranking? Extrinsic Evaluation of Agent Memory Systems on Conversational Search"
+  authors:
+    - family-names: Ng
+      given-names: Siu Hin
+  collection-title: "Proceedings of the 20th ACM International Conference on Web Search and Data Mining (WSDM '27)"
+  conference:
+    name: "WSDM '27"
+    city: "Hong Kong"
+  publisher:
+    name: "ACM"
+  year: 2027

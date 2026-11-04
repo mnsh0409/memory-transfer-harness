@@ -1,0 +1,8 @@
+{
+  "config": "{\"ablation\":{},\"backend\":\"openai\",\"collection\":\"cast20\",\"condition\":\"M1_manual\",\"context\":\"memory_only\",\"injection\":\"rewrite_only\",\"memory_k\":5,\"model\":\"gpt-4o-mini-2024-07-18\",\"rewrite_prompt\":\"rewrite_v1\"}",
+  "n_rewrites": 216,
+  "note": "queries are the track-released MANUAL utterances verbatim; no model calls were made and no memory system exists for this condition",
+  "run_id": "cast20.M1_manual.rewrite_only.41d3db7ce7a6",
+  "source_file": "data/cast/cast20_manual_topics.json",
+  "stage": "make_manual_reference"
+}

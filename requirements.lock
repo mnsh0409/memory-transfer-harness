@@ -1,0 +1,48 @@
+# Exact versions behind the paper's runs, for re-running the experiments end to end.
+# Reproducing the reported numbers from the released artifacts needs only requirements.txt.
+#
+# Libraries without PyPI releases are pinned by COMMIT, not by tag or branch. Install one with:
+#   git clone <repo> && git -C <dir> checkout <commit> && pip install --no-build-isolation -e <dir>
+
+# --- shared backend and retrieval ---------------------------------------------------------
+openai                = 2.54.0         # src/harness/llm.py uses only chat.completions.create
+pyserini              = 1.2.0          # needs Java 21+ and the cast2019 prebuilt index (~19.8 GiB)
+torch                 = 2.13.0+cu130   # CUDA build; reranking also runs on CPU, slowly
+pytrec_eval_terrier   = 0.5.10         # prebuilt wheel with trec_eval bundled
+
+# --- S1 Mem0 ------------------------------------------------------------------------------
+# Pre-v3 is mandatory: v3 removed the extract -> ADD/UPDATE/DELETE pipeline that every
+# published Mem0 benchmark measured.
+mem0ai                = 0.1.118
+
+# --- S2 Graphiti (temporal knowledge graph) -----------------------------------------------
+# Embedded Kuzu graph, in-process, in place of a Neo4j server.
+graphiti-core         = 0.29.3
+kuzu                  = 0.11.3         # deprecated upstream; chosen for portability
+neo4j                 = 6.2.0          # pulled in by graphiti-core; unused here
+
+# --- S3 A-Mem (agentic Zettelkasten) ------------------------------------------------------
+# https://github.com/agiresearch/A-mem
+amem_commit           = ceffb860f0712bbae97b184d440df62bc910ca8d   # 2025-12-12, main
+amem_package          = agentic-memory 0.0.1 (editable install of the commit above)
+chromadb              = 1.5.9
+litellm               = 1.97.0
+sentence-transformers = 6.0.0
+# embedding model (local, no API): all-MiniLM-L6-v2
+
+# --- S5 GAM (compile-at-query agentic file system) ----------------------------------------
+# https://github.com/VectorSpaceLab/general-agentic-memory
+gam_commit            = 565db2cc2518d377e44389b82aecf3cc129d5fe5   # 2026-03-14, main
+gam_package           = gam 0.1.0 (editable install of the commit above)
+tiktoken_encodings    = cl100k_base, o200k_base
+# GAM edits its store with POSIX shell commands; src/adapters/gam_adapter.py routes them
+# through bash on Windows, where shell=True would otherwise mean cmd.exe.
+
+# --- S4 Letta: not installed --------------------------------------------------------------
+# Dropped under a pre-agreed timebox (paper, Section 4). `pip install letta` (0.10.0) would
+# downgrade 21 installed packages, including protobuf 7 -> 5 and the onnxruntime that ChromaDB
+# (A-Mem) needs.
+
+# --- other versions in the environment ----------------------------------------------------
+onnxruntime           = 1.23.2
+protobuf              = 7.36.0
