@@ -69,7 +69,8 @@ class Mem0Memory(MemorySystem):
         shipped fact-extraction prompt via the library's own `custom_fact_extraction_prompt`
         config hook — a configuration the library exposes, not a library edit. It exists for
         the follow-up ablation internal review proposed: shipped Mem0 extracts *personal* facts
-        and therefore stores nothing from information-seeking dialogue (§6.2 of the paper);
+        and therefore stores almost nothing from information-seeking dialogue (its store was
+        still empty at 87% of judged CAsT 2019 queries; §6.2 of the paper);
         this arm asks whether a topical extraction target closes that gap within the same
         pipeline. It is NOT part of the frozen grid and appears in no submitted number."""
         if not HAVE_MEM0:

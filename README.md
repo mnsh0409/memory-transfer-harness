@@ -36,15 +36,18 @@ over no memory (B0).
 
 Bold marks the best memory system, not the best row.
 
-- **A-Mem's verbatim notes preserve essentially all of the gain** that full conversational context
-  is worth.
-- **Mem0's extracted facts preserve little of it, by omission.** Its personal-fact extractor stores
-  nothing on 82–91% of information-seeking turns. Turning extraction off inside the same library
-  recovers 92–95% of the full-history gain.
-- **Two systems produced plausible runs while storing nothing.** Graphiti's graph holds episodes
-  but no facts on this collection, and GAM's POSIX-only file operations reported success on Windows
-  while writing nothing. Report *injection rate*, the fraction of turns on which memory changed the
-  query at all, before reading any null result.
+- **A-Mem's verbatim notes come closest to full history:** 87% and 75% of the manual-rewrite
+  gain, against 85% and 80% for B1. No difference from B1 was detected, which is not the same as
+  showing the two are equivalent.
+- **Mem0's extracted facts deliver little of the gain, by omission.** Its shipped extractor
+  targets personal facts, and its store was still empty when 87% (2019) and 80% (2020) of judged
+  turns were queried. Mem0's search applies no score cutoff, so an empty result means an empty
+  store. Turning extraction off inside the same library recovers 92–95% of the full-history gain.
+- **Graphiti and GAM leave almost nothing to measure.** Graphiti returned facts on 5 of 173
+  judged turns and changed the query on 2. GAM's POSIX-only file operations reported success on
+  Windows while writing nothing, and no repaired GAM run was scored. Before reading any null
+  result, count three things separately: the turns on which memory returned anything, the turns
+  on which it changed the query, and the turns on which the ranking moved.
 
 ## Installation
 
@@ -66,7 +69,7 @@ their embedded timestamps.
 |---|---|
 | Tables 1 and 3, every significance test | `python -m scripts.collect_stats` |
 | Figures 2–4 | `python -m scripts.make_figures` |
-| Injection rates | `python -m scripts.injection_report` |
+| Memory returned, query changed, ranking moved | `python -m scripts.injection_report --collection cast19 --context memory_only` |
 | Judge validation, κ = 0.40 (Section 5.5) | see below |
 | Intervals on the delivered shares, effective sample size | `python -m scripts.share_inference` |
 
@@ -118,7 +121,7 @@ This needs Java 21+, Pyserini's `cast2019` prebuilt index (about 19.8 GiB), the 
 
 ```bash
 OPENAI_API_KEY=...
-EXPERIMENT_MODEL=gpt-4o-mini-2024-07-18      # one pinned snapshot serves every role
+EXPERIMENT_MODEL=gpt-4o-mini-2024-07-18      # every harness-routed call; not Mem0's extractor
 ```
 
 ```bash
@@ -131,7 +134,9 @@ python -m scripts.run_eval      --config runs/configs/<name>.json
 
 Rewrites and judge decisions replay from the cache without spending anything. Mem0 and Graphiti
 open model connections of their own that the harness cannot route, so re-running those two systems
-needs a key and spends budget.
+needs a key and spends budget. Those connections run on the libraries' defaults, not the pinned
+snapshot: in `mem0ai` 0.1.118, Mem0's fact extractor calls the unversioned `gpt-4o-mini` alias at
+temperature 0.1, and both libraries embed with OpenAI's default embedding model.
 
 ## Adding a memory system
 

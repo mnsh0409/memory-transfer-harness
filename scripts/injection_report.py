@@ -4,11 +4,16 @@
     python -m scripts.injection_report --collection cast19
 
 Answers the question that decides whether an extrinsic comparison can say anything at all:
-for each condition, on how many turns did the system have any memory to offer, and on how many
-did that memory actually change the rewritten query relative to the B0 (no-memory) run?
+for each condition, on how many turns did the system have any memory to offer, on how many
+did that memory actually change the rewritten query relative to the B0 (no-memory) run, and on
+how many judged turns did the ranking's nDCG@3 move?
 
-Why this exists: on CAsT 2019, S1_mem0 stored something on only 13.9% of judged turns and
-changed the rewrite on **5 of 173** -- so 168 turns are tied with B0 by construction and no
+These are three different counts and must not be reported as one. Memory can be returned and
+leave the rewrite unchanged; an unchanged rewrite always leaves the ranking unchanged.
+
+Why this exists: on CAsT 2019 (history-plus-memory design), S1_mem0 returned memory on only
+13.9% of judged turns and changed the rewrite on **5 of 173** -- so 168 turns are tied with B0
+by construction and no
 paired test over them can detect anything. That is a property of the collection (CAsT is
 topical information-seeking with no personas, so a fact-extraction memory has almost nothing
 to store), not a bug, but it has to be reported next to any "no significant difference"
@@ -38,12 +43,13 @@ def _load_rewrites(runs_dir: str, run_id: str) -> dict:
         return {r["turn_id"]: r for r in (json.loads(ln) for ln in f if ln.strip())}
 
 
-def _judged_turns(runs_dir: str, run_id: str) -> set:
+def _judged_scores(runs_dir: str, run_id: str) -> dict:
+    """nDCG@3 per judged turn; the keys are the judged turns."""
     path = os.path.join(runs_dir, "metrics", f"{run_id}.per_turn.jsonl")
     if not os.path.exists(path):
-        return set()
+        return {}
     with open(path, encoding="utf-8") as f:
-        return {json.loads(ln)["turn_id"] for ln in f if ln.strip()}
+        return {r["turn_id"]: r["ndcg_cut_3"] for r in (json.loads(ln) for ln in f if ln.strip())}
 
 
 def build_rows(runs_dir: str, collection: str, injection: str = "rewrite_only",
@@ -65,7 +71,8 @@ def build_rows(runs_dir: str, collection: str, injection: str = "rewrite_only",
         raise SystemExit(f"no {BASELINE} run scored for {collection}/{injection}/{context} "
                          "yet -- the diagnostic is relative to it")
     base = _load_rewrites(runs_dir, base_id)
-    judged = _judged_turns(runs_dir, base_id)
+    base_scores = _judged_scores(runs_dir, base_id)
+    judged = set(base_scores)
 
     rows = []
     for rid, row in sorted(cell.items(), key=lambda kv: kv[1]["condition"]):
@@ -76,6 +83,7 @@ def build_rows(runs_dir: str, collection: str, injection: str = "rewrite_only",
                                             sorted((row.get("ablation") or {}).items())))
         turns = sorted(rw)
         jt = [t for t in turns if t in judged]
+        scores = _judged_scores(runs_dir, rid)
         has_mem = [t for t in turns if rw[t]["memory_block"].strip()]
         differs = [t for t in turns
                    if t in base and rw[t]["query"].strip() != base[t]["query"].strip()]
@@ -86,6 +94,8 @@ def build_rows(runs_dir: str, collection: str, injection: str = "rewrite_only",
             "mem_judged": sum(1 for t in jt if rw[t]["memory_block"].strip()),
             "diff_judged": sum(1 for t in jt if t in base
                                and rw[t]["query"].strip() != base[t]["query"].strip()),
+            "moved_judged": sum(1 for t in jt if t in scores
+                                and abs(scores[t] - base_scores[t]) > 1e-12),
             "ndcg_cut_3": row.get("ndcg_cut_3"),
         })
     return rows
@@ -96,16 +106,19 @@ def render(rows: list[dict], collection: str,
     # plain ASCII: these tables get pasted into logs, and the console here is cp950
     head = (f"Injection report - {collection} / {context} (relative to {BASELINE})\n\n"
             f"{'run':<26}{'nDCG@3':>9}{'mem/turns':>16}{'changed':>16}"
-            f"{'mem/judged':>15}{'changed(j)':>15}\n")
-    lines = [head + "-" * 97]
+            f"{'mem/judged':>15}{'changed(j)':>15}{'moved(j)':>15}\n")
+    lines = [head + "-" * 112]
     for r in rows:
         pct = lambda a, b: f"{a}/{b} ({100*a/b:.0f}%)" if b else "-"      # noqa: E731
         nd = "-" if r["ndcg_cut_3"] is None else f"{r['ndcg_cut_3']:.4f}"
         lines.append(f"{r['run']:<26}{nd:>9}{pct(r['mem_all'], r['n_turns']):>16}"
                      f"{pct(r['diff_all'], r['n_turns']):>16}"
                      f"{pct(r['mem_judged'], r['n_judged']):>15}"
-                     f"{pct(r['diff_judged'], r['n_judged']):>15}")
+                     f"{pct(r['diff_judged'], r['n_judged']):>15}"
+                     f"{pct(r['moved_judged'], r['n_judged']):>15}")
     lines.append("")
+    lines.append("mem = memory returned (non-empty block); changed = query differs from B0's;")
+    lines.append("moved(j) = judged turns whose nDCG@3 differs from B0's.")
     lines.append("changed(j) is the ceiling on how many judged turns can differ from B0 at all:")
     lines.append("every other judged turn is TIED by construction, whatever the metric says.")
     return "\n".join(lines)

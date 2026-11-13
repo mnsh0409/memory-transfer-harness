@@ -34,15 +34,24 @@ back to these, and the tests enforce most of them.
   turn. Tests enforce the order; do not reorder.
 - **Per-dialogue isolation.** Every system gets a separate store per dialogue
   (`user_id`, `group_id`, a fresh graph, or a separate directory, as the library allows).
-- **Every model call goes through the harness.** All calls run at temperature 0 through
-  `src/harness/llm.py` and the content-hashed cache in `src/harness/llmcache.py`; a raw API
-  call anywhere else in experiment code is a bug. Where a library opens its own connection
-  that cannot be routed (Mem0's extractor, Graphiti's embedder), the adapter says so and the
-  paper reports that system's cost as a lower bound.
+- **Every model call the harness can route goes through it.** Those calls run at temperature 0
+  through `src/harness/llm.py` and the content-hashed cache in `src/harness/llmcache.py`; a raw
+  API call anywhere else in experiment code is a bug. Where a library opens its own connection
+  that cannot be routed (Mem0's extractor, the Mem0 and Graphiti embedders), the adapter says
+  so and the paper reports that system's cost as a lower bound. Such a connection runs on the
+  library's defaults, uncached: `mem0ai` 0.1.118 sends extraction to the unversioned
+  `gpt-4o-mini` alias at temperature 0.1.
+- **Where a prompt is reshaped, the adapter says how.** The harness backend takes one prompt
+  string and returns text. Graphiti sends chat messages and asks the provider's
+  structured-output mode for JSON, so `HarnessLLMClient` flattens the messages with role
+  prefixes and appends the requested JSON schema to the prompt. GAM's generator, given a
+  message list, flattens it the same way and parses the JSON that GAM's own prompts ask for.
+  A-Mem's prompts reach the model unchanged.
 - **Pinned versions, never upgraded silently.** `mem0ai` stays pre-v3 (v3 removed the
   extract → ADD/UPDATE/DELETE pipeline the published benchmarks measured); A-Mem and GAM are
-  pinned by commit. Exact versions are in `requirements.lock`. The model is one pinned snapshot
-  (`gpt-4o-mini-2024-07-18`), never an alias.
+  pinned by commit. Exact versions are in `requirements.lock`. The harness's model is one
+  pinned snapshot (`gpt-4o-mini-2024-07-18`), never an alias; Mem0's extractor, above, is the
+  exception.
 - **Frozen instruments.** `prompts/rewrite_v1.txt` and `prompts/judge_v1.txt` are never edited.
   A new instrument is a new versioned file.
 - **Append-only runs.** Every run writes a manifest, and its identity is the hash of its
