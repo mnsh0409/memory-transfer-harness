@@ -430,13 +430,13 @@ def test_paired_stats_carries_the_treated_subset_view():
     treat = [0.5] * 8 + [0.9, 0.1]          # 8 ties, one big win, one big loss
     s = paired_stats(base, treat)
     assert s["n"] == 10
-    assert s["n_changed"] == 2
-    assert s["mean_delta_changed"] == pytest.approx(0.0)
+    assert s["n_nonzero_delta"] == 2
+    assert s["mean_delta_nonzero"] == pytest.approx(0.0)
     assert s["mean_delta"] == pytest.approx(0.0)
     # the ITT mean is diluted by the ties; the treated mean is over the 2 turns that moved
     s2 = paired_stats([0.5] * 10, [0.5] * 8 + [0.9, 0.9])
     assert s2["mean_delta"] == pytest.approx(0.08)
-    assert s2["mean_delta_changed"] == pytest.approx(0.4)
+    assert s2["mean_delta_nonzero"] == pytest.approx(0.4)
 
 
 def test_system_vs_system_contrasts_exist_in_their_own_family(tmp_path):

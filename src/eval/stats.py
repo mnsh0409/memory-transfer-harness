@@ -232,13 +232,15 @@ def paired_stats(baseline: list[float], treatment: list[float],
         "cohen_dz": None, "ci_low": None, "ci_high": None,
         "degenerate": True,
     }
-    # treated-subset (per-protocol) view: the turns where the condition actually changed the
-    # rewrite. See wilcoxon_signed_rank for why the ITT view alone is misleading here.
+    # Per-protocol view over the turns whose score moved (non-zero delta). This is NOT the count
+    # of changed rewrites: a changed query can still tie. scripts/injection_report counts memory
+    # returned, queries changed and rankings moved separately. See wilcoxon_signed_rank for why
+    # the ITT view alone is misleading here.
     nonzero = [d for d in deltas if d != 0]
-    p_w, n_changed = wilcoxon_signed_rank(deltas)
-    out["n_changed"] = n_changed
-    out["mean_delta_changed"] = _mean(nonzero)
-    out["p_wilcoxon_changed"] = p_w
+    p_w, n_nonzero = wilcoxon_signed_rank(deltas)
+    out["n_nonzero_delta"] = n_nonzero
+    out["mean_delta_nonzero"] = _mean(nonzero)
+    out["p_wilcoxon_nonzero"] = p_w
     if n < 2:
         return out
     mean_d = out["mean_delta"]
@@ -659,7 +661,7 @@ COMPARISON_COLUMNS = [
     "group", "collection", "injection", "metric", "baseline", "treatment", "n", "n_unpaired",
     "mean_baseline", "mean_treatment", "mean_delta", "ci_low", "ci_high", "sd_delta",
     "cohen_dz", "t", "df", "p", "p_holm", "family_size", "significant", "wins", "losses",
-    "ties", "n_changed", "mean_delta_changed", "p_wilcoxon_changed",
+    "ties", "n_nonzero_delta", "mean_delta_nonzero", "p_wilcoxon_nonzero",
     "n_dialogues", "p_dialogue_level", "degenerate", "family", "cell",
     "baseline_run_id", "treatment_run_id",
 ]

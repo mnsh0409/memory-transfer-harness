@@ -55,14 +55,14 @@ def main(argv=None) -> int:
             print(f"  [{c['group']}/{c['collection']}] {c['baseline']} -> {c['treatment']}: "
                   f"delta={c['mean_delta']:+.4f} n={c['n']} W/L/T={c['wins']}/{c['losses']}/"
                   f"{c['ties']} dz={dz} p={p} p_holm={ph} p_dlg={pd}{flag}{unp}")
-            # treated-subset view: most turns are tied because the condition never injected,
+            # per-protocol view: most turns are tied because memory never changed the query,
             # so the ITT line above averages over turns that had no treatment at all
-            nch = c.get("n_changed") or 0
+            nch = c.get("n_nonzero_delta") or 0
             if nch:
-                pw = c.get("p_wilcoxon_changed")
+                pw = c.get("p_wilcoxon_nonzero")
                 pw = "n/a" if pw is None else f"{pw:.4f}"
-                print(f"      on the {nch} turn(s) it actually changed: "
-                      f"delta={c['mean_delta_changed']:+.4f} wilcoxon p={pw}"
+                print(f"      on the {nch} turn(s) whose score moved: "
+                      f"delta={c['mean_delta_nonzero']:+.4f} wilcoxon p={pw}"
                       f"{'  (too few for a reliable p)' if nch < 6 else ''}")
     if summary["unpaired_runs"]:
         print(f"  WARNING unpaired runs (no un-ablated counterpart scored): "

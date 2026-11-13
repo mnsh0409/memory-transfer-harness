@@ -5,8 +5,9 @@
 Two analyses requested in internal review, both computable
 from existing artifacts with zero model calls:
 
-  A. Mem0: on the turns where it actually injected, what does it deliver? (distinguishes
-     "extraction stores nothing" from "extraction stores something worse")
+  A. Mem0: on the turns where it returned memory, and on the turns where that memory changed
+     the query, what does it deliver? (distinguishes "extraction stores nothing" from
+     "extraction stores something worse", and both from "the rewriter ignored it")
   B. A-Mem: on how many judged turns did top-k return the entire store, and what is
      A-Mem - B1 restricted to turns where selection was actually exercised (store > k)?
 """
@@ -71,21 +72,30 @@ for coll in ("cast19", "cast20"):
     judged = sorted(set(PT["B0"]) & set(PT["B1"]))
     print(f"\n================ {coll} (judged n={len(judged)}) ================")
 
-    # ---- A. Mem0 treated-subset decomposition
-    treated = [t for t in judged if RW["S1"][t]["query"].strip() != RW["B0"][t]["query"].strip()]
-    untr = [t for t in judged if t not in treated]
-    hb, nb, pb = paired(PT["B0"], PT["B1"], treated)      # headroom on treated turns
-    hs, ns, ps = paired(PT["B0"], PT["S1"], treated)      # Mem0 gain on treated turns
-    print(f"A. Mem0 injected+changed on {len(treated)}/{len(judged)} judged turns "
-          f"({100*len(treated)/len(judged):.0f}%)")
-    print(f"   on TREATED turns: B1-B0 = {hb:+.4f} | S1-B0 = {hs:+.4f} "
-          f"(wilcoxon p={wilcoxon(PT['B0'],PT['S1'],treated):.2e})")
-    if hb: print(f"   => delivered share ON TREATED TURNS: {100*hs/hb:.1f}%")
-    hu, nu, _ = paired(PT["B0"], PT["B1"], untr)
-    print(f"   on UNTREATED turns ({nu}): B1-B0 = {hu:+.4f} (the gain Mem0 left on the table)")
-    if s1n:
-        hn, _, _ = paired(PT["B0"], PT["S1n"], treated)
-        print(f"   S1[infer=False]-B0 on the same treated subset: {hn:+.4f}")
+    # ---- A. Mem0 treated-subset decomposition, on two definitions of "treated":
+    #      memory returned a non-empty block, and the query changed. They differ on turns where
+    #      memory came back and the rewriter left the query as it was. Mem0's search applies no
+    #      score cutoff, so an empty block means its store held nothing for the dialogue yet.
+    bases = {
+        "memory returned": lambda t: bool(RW["S1"][t]["memory_block"].strip()),
+        "query changed": lambda t: RW["S1"][t]["query"].strip() != RW["B0"][t]["query"].strip(),
+    }
+    for basis, is_treated in bases.items():
+        treated = [t for t in judged if is_treated(t)]
+        untr = [t for t in judged if t not in treated]
+        hb, nb, pb = paired(PT["B0"], PT["B1"], treated)      # headroom on treated turns
+        hs, ns, ps = paired(PT["B0"], PT["S1"], treated)      # Mem0 gain on treated turns
+        print(f"A. Mem0, treated = {basis}: {len(treated)}/{len(judged)} judged turns "
+              f"({100*len(treated)/len(judged):.0f}%)")
+        print(f"   on TREATED turns: B1-B0 = {hb:+.4f} | S1-B0 = {hs:+.4f} "
+              f"(wilcoxon p={wilcoxon(PT['B0'],PT['S1'],treated):.2e})")
+        if hb: print(f"   => delivered share ON TREATED TURNS: {100*hs/hb:.1f}%")
+        hu, nu, _ = paired(PT["B0"], PT["B1"], untr)
+        print(f"   on UNTREATED turns ({nu}): B1-B0 = {hu:+.4f} (the gain Mem0 left on the table)")
+        if s1n:
+            hn, _, _ = paired(PT["B0"], PT["S1n"], treated)
+            print(f"   S1[infer=False]-B0 on the same treated subset: {hn:+.4f}"
+                  + (f" ({100*hn/hb:.0f}% of local headroom)" if hb else ""))
 
     # ---- B. A-Mem whole-store vs selection-active turns (k=5)
     k = 5

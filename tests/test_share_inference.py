@@ -23,7 +23,7 @@ import pytest
 pytest.importorskip("scipy")
 
 from scripts.share_inference import (analyse, cluster_bootstrap, cluster_cov, cr_ttest,  # noqa: E402
-                                     decompose, effective_n, fieller, main, mde)
+                                     decompose, delta_interval, effective_n, fieller, main, mde)
 
 
 # --------------------------------------------------------------------------- variance
@@ -173,10 +173,28 @@ def test_cluster_bootstrap_is_reproducible_with_a_seed():
     assert cluster_bootstrap(a, b, cl, 2000, 11) == cluster_bootstrap(a, b, cl, 2000, 11)
 
 
+def test_delta_interval_reduces_to_the_paired_t_interval_without_clustering():
+    from scipy import stats
+    d = np.random.default_rng(10).normal(-0.02, 0.2, 50)
+    out = delta_interval(d, np.arange(50), n_boot=500)
+    lo, hi = stats.t.interval(0.95, 49, loc=d.mean(), scale=d.std(ddof=1) / math.sqrt(50))
+    assert (out["t_lo"], out["t_hi"]) == (pytest.approx(lo), pytest.approx(hi))
+    assert out["boot_lo"] < d.mean() < out["boot_hi"]
+
+
+def test_delta_interval_widens_when_dialogues_move_together():
+    rng = np.random.default_rng(11)
+    d = np.repeat(rng.normal(0, 0.2, 10), 8) + rng.normal(0, 0.02, 80)
+    iid = delta_interval(d, np.arange(80), n_boot=500)
+    clustered = delta_interval(d, np.repeat(np.arange(10), 8), n_boot=500)
+    assert clustered["t_hi"] - clustered["t_lo"] > 2 * (iid["t_hi"] - iid["t_lo"])
+
+
 # --------------------------------------------------------------------------- end to end
 
 def _write_runs(tmp_path, break_zeros=False):
-    """Four dialogues x three turns. S1 changes the query on two turns only."""
+    """Four dialogues x three turns. S1 returns memory on three turns and changes the query on
+    two of them; on the third the rewriter ignores what came back."""
     runs = tmp_path / "runs"
     (runs / "metrics").mkdir(parents=True)
     (runs / "rewrites").mkdir()
@@ -184,6 +202,7 @@ def _write_runs(tmp_path, break_zeros=False):
     rng = np.random.default_rng(9)
     b0 = {t: float(rng.uniform(0.1, 0.3)) for t in turns}
     treated = {"31_2", "33_3"}
+    returned = treated | {"34_1"}
     conds = {
         "B0_none": {t: b0[t] for t in turns},
         "B1_full_history": {t: b0[t] + float(rng.uniform(0.2, 0.4)) for t in turns},
@@ -204,8 +223,9 @@ def _write_runs(tmp_path, break_zeros=False):
             for t in turns:
                 q = f"q {t}" + (" +memory" if cond == "S1_mem0" and t in treated else "")
                 q = q if cond in ("B0_none", "S1_mem0") else f"{cond} {t}"
+                block = "- a fact" if cond == "S1_mem0" and t in returned else ""
                 f.write(json.dumps({"turn_id": t, "dialogue_id": t.split("_")[0],
-                                    "query": q}) + "\n")
+                                    "query": q, "memory_block": block}) + "\n")
     (runs / "stats_summary.json").write_text(json.dumps(summary), encoding="utf-8")
     return str(runs)
 
@@ -217,6 +237,19 @@ def test_end_to_end_reports_injection_and_clusters_by_dialogue(tmp_path):
     assert s1["decomposition"]["n_treated"] == 2
     assert s1["decomposition"]["untreated_nonzero"] == 0
     assert abs(s1["decomposition"]["identity_residual"]) < 1e-12
+
+
+def test_returned_memory_is_a_separate_treatment_and_the_identity_still_holds(tmp_path):
+    runs = _write_runs(tmp_path)
+    pick = lambda rows: next(r for r in rows  # noqa: E731
+                             if r["system"] == "S1_mem0" and r["reference"] == "M1_manual")
+    changed = pick(analyse(runs, "cast19", n_boot=200))["decomposition"]
+    returned = pick(analyse(runs, "cast19", n_boot=200, treated_by="returned"))["decomposition"]
+    assert (changed["n_treated"], returned["n_treated"]) == (2, 3)
+    assert returned["untreated_nonzero"] == 0
+    assert abs(returned["identity_residual"]) < 1e-12
+    assert returned["share"] == pytest.approx(changed["share"])
+    assert returned["q_treated"] < changed["q_treated"]     # the ignored block dilutes quality
 
 
 def test_main_exits_nonzero_when_untreated_turns_are_not_exactly_zero(tmp_path, capsys):

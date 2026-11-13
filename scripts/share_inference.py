@@ -140,6 +140,26 @@ def cluster_bootstrap(a, b, clusters, n_boot: int = 10000, seed: int = 0,
             "n_boot": n_boot, "seed": seed}
 
 
+def delta_interval(d, clusters, n_boot: int = 10000, seed: int = 0,
+                   level: float = 0.95) -> dict:
+    """Mean paired difference with two dialogue-level intervals: cluster-robust t (df = G - 1)
+    and a percentile bootstrap over whole dialogues. The estimand stays turn-weighted; the
+    clusters only set the uncertainty. This is the interval to read a "no difference" claim
+    against: it says how large a difference the data cannot exclude."""
+    d = np.asarray(d, float)
+    v, _, _, g = cluster_cov(d, d, clusters)
+    half = _t_crit(g - 1, level) * math.sqrt(v)
+    _, inv = np.unique(np.asarray(clusters), return_inverse=True)
+    sums = np.bincount(inv, weights=d, minlength=g)
+    sizes = np.bincount(inv, minlength=g)
+    draws = np.random.default_rng(seed).integers(0, g, size=(n_boot, g))
+    means = sums[draws].sum(axis=1) / sizes[draws].sum(axis=1)
+    lo, hi = np.percentile(means, [100 * (1 - level) / 2, 100 * (1 + level) / 2])
+    return {"est": float(d.mean()), "t_lo": float(d.mean() - half),
+            "t_hi": float(d.mean() + half), "boot_lo": float(lo), "boot_hi": float(hi),
+            "df": g - 1}
+
+
 def decompose(a, b, treated) -> dict:
     """share = p * q_T * c, plus the exact-zero check that makes it an identity."""
     a = np.asarray(a, float)
@@ -235,8 +255,22 @@ def _dialogue(turn_id: str, rewrite: dict | None) -> str:
     return turn_id.rsplit("_", 1)[0]
 
 
+def _is_treated(by: str, rewrite: dict, base: dict) -> bool:
+    """`changed`: the query differs from B0's. `returned`: memory returned a non-empty block.
+    Both make the decomposition an identity when an empty block leaves the query unchanged;
+    they differ on turns where memory came back and the rewriter did not use it.
+
+    An empty block reproduces B0's query only when both runs read the same LLM cache. The
+    ablation runs replayed through a separate cache, so a few of their empty-memory first turns
+    got a fresh temperature-0 paraphrase of B0's query; `off!=0` counts those under `returned`."""
+    if by == "returned":
+        return bool(rewrite.get("memory_block", "").strip())
+    return rewrite["query"].strip() != base["query"].strip()
+
+
 def analyse(runs_dir: str, collection: str, references=REFERENCES, metric: str = METRIC,
-            n_boot: int = 10000, seed: int = 0, level: float = 0.95) -> list[dict]:
+            n_boot: int = 10000, seed: int = 0, level: float = 0.95,
+            treated_by: str = "changed") -> list[dict]:
     idx = _index(runs_dir, collection)
     if BASELINE not in idx:
         return []
@@ -261,10 +295,14 @@ def analyse(runs_dir: str, collection: str, references=REFERENCES, metric: str =
                    "bootstrap": cluster_bootstrap(a, b, clusters, n_boot, seed, level),
                    # S - B0 = 0 (share = 0%) and S - R = 0 (share = 100%), clustered.
                    "cr_vs_baseline": cr_ttest(a, clusters),
-                   "cr_vs_reference": cr_ttest([x - y for x, y in zip(a, b)], clusters)}
-            if lab in rw and base:
-                treated = [rw[lab][t]["query"].strip() != base[t]["query"].strip() for t in ids]
+                   "cr_vs_reference": cr_ttest([x - y for x, y in zip(a, b)], clusters),
+                   "delta_vs_reference": delta_interval([x - y for x, y in zip(a, b)],
+                                                        clusters, n_boot, seed, level)}
+            # M1 is human rewrites, not a memory system: nothing is "returned" to condition on.
+            if lab in rw and base and not (treated_by == "returned" and lab == "M1_manual"):
+                treated = [_is_treated(treated_by, rw[lab][t], base[t]) for t in ids]
                 dec = decompose(a, b, treated)
+                dec["treated_by"] = treated_by
                 if dec["n_treated"]:
                     dec["n_eff"] = effective_n(dec["n_treated"], dec["p"], dec["mu1"],
                                                dec["sigma1"])
@@ -310,7 +348,14 @@ def render(rows: list[dict]) -> str:
                 out.append(f"  {r['system']:26} {_pct(f['est'])}  {_interval(f):>18}  "
                            f"[{_pct(bs['lo'])}, {_pct(bs['hi'])}]  "
                            f"{_p(r['cr_vs_baseline']['p'])}  {_p(r['cr_vs_reference']['p'])}")
-            out.append(f"  {'':26} {'inj.':>6} {'n_T':>5} {'n_eff':>6} {'q_T%':>6} "
+            out.append(f"  {'':26} {'S-' + ref.split('_')[0]:>8}  {'clustered t':>18}  "
+                       f"{'bootstrap':>18}")
+            for r in sub:
+                dv = r["delta_vs_reference"]
+                out.append(f"  {r['system']:26} {dv['est']:+8.4f}  "
+                           f"[{dv['t_lo']:+.4f}, {dv['t_hi']:+.4f}]  "
+                           f"[{dv['boot_lo']:+.4f}, {dv['boot_hi']:+.4f}]")
+            out.append(f"  {'':26} {'treat.':>6} {'n_T':>5} {'n_eff':>6} {'q_T%':>6} "
                        f"{'MDE':>7} {'MDE/hT':>7} {'off!=0':>6}")
             for r in sub:
                 d = r.get("decomposition")
@@ -324,7 +369,11 @@ def render(rows: list[dict]) -> str:
                 out.append(f"  {r['system']:26} {100 * d['p']:5.0f}% {d['n_treated']:5d} {n_eff} "
                            f"{q_t} {m_s} {mh_s} {d['untreated_nonzero']:6d}")
     out.append("\n  p(0%)   S - B0 = 0, i.e. the share is zero; p(100%)  S - R = 0, the share is 100%")
-    out.append("  inj.    injection rate: share of turns whose query differs from B0's")
+    out.append("  S-R     mean paired difference from the reference, with dialogue-level 95% intervals")
+    basis = dict.fromkeys((r.get("decomposition") or {}).get("treated_by") for r in rows)
+    out.append("  treat.  share of turns treated, where treated = "
+               + " / ".join("memory returned a non-empty block" if b == "returned"
+                            else "query differs from B0's" for b in basis if b))
     out.append("  n_eff   effective sample size of the all-turn paired test (<= n_T, Prop. 1)")
     out.append("  q_T     share delivered on the treated turns alone, against their local headroom")
     out.append("  MDE     minimum detectable treated-turn effect (alpha .05, power .8, t-based);")
@@ -344,13 +393,16 @@ def main(argv=None) -> int:
     ap.add_argument("--metric", default=METRIC)
     ap.add_argument("--boot", type=int, default=10000)
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument("--treated", choices=("changed", "returned"), default="changed",
+                    help="what counts as a treated turn: the query changed (default), or "
+                         "memory returned anything")
     ap.add_argument("--json", action="store_true", help="emit JSON on stdout instead of tables")
     args = ap.parse_args(argv)
 
     rows = []
     for coll in args.collection or ["cast19", "cast20"]:
         rows += analyse(args.runs_dir, coll, tuple(args.reference or REFERENCES), args.metric,
-                        args.boot, args.seed)
+                        args.boot, args.seed, treated_by=args.treated)
     if not rows:
         print("no memory_only runs with a B0 baseline found under", args.runs_dir)
         return 1
@@ -361,7 +413,9 @@ def main(argv=None) -> int:
     if bad:
         print("\nWARNING: untreated turns with non-zero differences in: "
               + ", ".join(f"{r['collection']}/{r['system']}" for r in bad), file=sys.stderr)
-        return 2
+        # Under `changed` a non-zero untreated turn breaks the pipeline's determinism. Under
+        # `returned` it can also be a run that replayed through its own cache (_is_treated).
+        return 2 if args.treated == "changed" else 0
     return 0
 
 

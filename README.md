@@ -69,9 +69,10 @@ their embedded timestamps.
 |---|---|
 | Tables 1 and 3, every significance test | `python -m scripts.collect_stats` |
 | Figures 2–4 | `python -m scripts.make_figures` |
-| Memory returned, query changed, ranking moved | `python -m scripts.injection_report --collection cast19 --context memory_only` |
+| Table 1 counts: memory returned, query changed, ranking moved | `python -m scripts.injection_report --collection cast19 --context memory_only` |
+| Table 1 intervals, dialogue-clustered intervals on differences, effective sample size | `python -m scripts.share_inference` |
+| The same, with "treated" meaning memory returned rather than query changed | `python -m scripts.share_inference --treated returned` |
 | Judge validation, κ = 0.40 (Section 5.5) | see below |
-| Intervals on the delivered shares, effective sample size | `python -m scripts.share_inference` |
 
 ```bash
 python -m scripts.judge_agreement \
