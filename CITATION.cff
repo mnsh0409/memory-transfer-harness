@@ -18,11 +18,12 @@ keywords:
   - information retrieval
 preferred-citation:
   type: conference-paper
-  title: "Does Memory Transfer to Ranking? Extrinsic Evaluation of Agent Memory Systems on Conversational Search"
+  title: "Does Memory Transfer to Ranking? An Extrinsic Evaluation of LLM Agent Memory Systems"
+  doi: "10.1145/3862322.3863674"
   authors:
     - family-names: Ng
       given-names: Siu Hin
-  collection-title: "Proceedings of the 20th ACM International Conference on Web Search and Data Mining (WSDM '27)"
+  collection-title: "Proceedings of the Twentieth ACM International Conference on Web Search and Data Mining (WSDM '27)"
   conference:
     name: "WSDM '27"
     city: "Hong Kong"

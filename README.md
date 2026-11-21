@@ -1,6 +1,6 @@
 # Does Memory Transfer to Ranking?
 
-**Extrinsic evaluation of agent memory systems on conversational search**
+**An extrinsic evaluation of LLM agent memory systems**
 
 [![WSDM 2027](https://img.shields.io/badge/WSDM-2027-1f6feb)](https://wsdm-conference.org/2027/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2ea44f)](LICENSE)
@@ -203,12 +203,13 @@ pipeline uses:
 ```bibtex
 @inproceedings{ng2027memory,
   author    = {Ng, Siu Hin},
-  title     = {Does Memory Transfer to Ranking? Extrinsic Evaluation of Agent Memory Systems
-               on Conversational Search},
-  booktitle = {Proceedings of the 20th ACM International Conference on Web Search and Data
-               Mining (WSDM '27)},
+  title     = {Does Memory Transfer to Ranking? An Extrinsic Evaluation of {LLM} Agent Memory
+               Systems},
+  booktitle = {Proceedings of the Twentieth ACM International Conference on Web Search and
+               Data Mining (WSDM '27)},
   year      = {2027},
   address   = {Hong Kong},
-  publisher = {ACM}
+  publisher = {ACM},
+  doi       = {10.1145/3862322.3863674}
 }
 ```
